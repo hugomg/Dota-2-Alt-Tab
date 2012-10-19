@@ -1983,7 +1983,7 @@ Go{
     {I_STARTING,
       {2, 'slippers'}, {2, 'branches'}, 'flask', 'tango' },
     {I_CORE,
-      {OPT, 'wraith_band', 'wraith_band'}, 'power_treads', 'helm_of_the_dominator',
+      'power_treads', {ALT, 'helm_of_the_dominator', 'invis_sword'},
       'manta'},
     {I_LUXURY,
       'black_king_bar', 'butterfly', 'greater_crit', 'heart' },
