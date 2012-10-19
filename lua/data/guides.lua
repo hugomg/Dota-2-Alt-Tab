@@ -1361,7 +1361,7 @@ Go{
 
 Go{
   heroid='Tide',
-  date={day=30, month=7, year=2012},
+  date={day=18, month=10, year=2012},
 
   SKILLBUILD{
     {MAX,Q}, E, W, {MAX, E}, {MAX, W}
@@ -1369,11 +1369,11 @@ Go{
 
   ITEMBUILD{
     {I_STARTING,
-      'courier', {3, 'branches'}, 'flask', 'tango', {2, 'clarity'}},
+      {ALT, 'courier', 'ward_observer'}, {3, 'branches'}, 'flask', 'tango', {2, 'clarity'}},
     {I_CORE,
       'magic_wand', 'arcane_boots', {OPT, 'urn_of_shadows'} },
     {I_LUXURY,
-      'pipe', 'ward_observer', 'shivas_guard', 'refresher', 'blink' },
+      'pipe', 'ward_observer', 'shivas_guard', 'refresher', {OPT,'blink', 'force_staff'}},
   },
 
   HERODESC{
