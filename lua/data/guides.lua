@@ -147,7 +147,7 @@ end
 
 Go{
   heroid = 'Kunkka',
-  date = {day=30, month=7, year=2012},
+  date = {day=18, month=10, year=2012},
 
   SKILLBUILD{
     Q ,{MAX, W}, {MAX, Q}, {MAX, E}
@@ -157,7 +157,7 @@ Go{
     {I_STARTING,
       {2, 'gauntlets'}, 'flask', 'tango', {2, 'clarity'}},
     {'Survivability Core',
-      'magic_wand', 'vanguard', 'ancient_janggo'},
+      'magic_wand', 'phase_boots', 'vanguard', 'ancient_janggo'},
     {'Damage Core',
       'phase_boots', 'invis_sword', 'greater_crit'},
     {I_LUXURY,
