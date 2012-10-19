@@ -1469,7 +1469,7 @@ Go{
 
 Go{
   heroid='SK',
-  date={day=30, month=7, year=2012},
+  date={day=18, month=10, year=2012},
 
   SKILLBUILD{
     {MAX, Q}, {MAX, W}, {MAX, E}
@@ -1477,9 +1477,9 @@ Go{
 
   ITEMBUILD{
     {I_STARTING,
-      'courier', 'branches', 'flask', {2, 'tango'}, {2, 'clarity'} },
+      {ALT, 'courier', 'ward_observer'}, 'branches', 'flask', {2, 'tango'}, {2, 'clarity'} },
     {I_CORE,
-      'magic_wand', 'bottle', 'arcane_boots', 'blink' },
+      'magic_wand', 'arcane_boots', 'blink' },
     {I_LUXURY,
       'ultimate_scepter', 'veil_of_discord', 'shivas_guard',
       'sheepstick', 'black_king_bar' }
