@@ -1364,7 +1364,7 @@ Go{
   date={day=18, month=10, year=2012},
 
   SKILLBUILD{
-    {MAX,Q}, E, W, {MAX, E}, {MAX, W}
+    Q, {MAX, E}, W, {MAX, Q}, {MAX, W}
   },
 
   ITEMBUILD{
@@ -4206,7 +4206,7 @@ Go{
   TIPS{ name=T_BUILD_VARIATIONS,
     {"Get 0, 1, or 2 levels of", Q, "early, depending on your opponents."},
 
-    {"The itembuild is very flexible na d depends on if its best to invest in",
+    {"The itembuild is very flexible and depends on if its best to invest in",
       "disables, magic damage, pushing power or physical DPS"},
   }
 }
