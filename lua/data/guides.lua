@@ -3206,7 +3206,7 @@ Go{
 
 Go{
   heroid = 'Lina',
-  date={day=30, month=7, year=2012},
+  date={day=18, month=10, year=2012},
 
   SKILLBUILD{
     W, {MAX, Q}, E, {MAX, W}, {MAX, E}
@@ -3214,7 +3214,7 @@ Go{
 
   ITEMBUILD{
     {I_STARTING,
-      'courier', {3, 'branches'}, 'flask', 'tango', {2, 'clarity'} },
+      {ALT, 'courier', 'ward_observer'}, {3, 'branches'}, 'flask', 'tango', {2, 'clarity'} },
     {I_CORE,
       'arcane_boots', 'bottle', 'urn_of_shadows' },
     {I_LUXURY,
