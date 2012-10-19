@@ -1319,7 +1319,7 @@ Go{
 
 Go{
   heroid='Dirge',
-  date={day=30, month=7, year=2012},
+  date={day=18, month=10, year=2012},
 
   SKILLBUILD{
     W, Q, {MAX, E}, W, {MAX, Q}, {MAX, W}
@@ -1327,7 +1327,7 @@ Go{
 
   ITEMBUILD{
     {I_STARTING,
-      'ring_of_protection', {3, 'branches'}, 'flask', 'tango' },
+      {3, 'branches'}, 'ring_of_protection', 'flask', 'tango' },
     {I_CORE,
       'magic_wand', 'ring_of_basilius', 'vanguard', 'arcane_boots' },
     {I_LUXURY,
@@ -1343,10 +1343,13 @@ Go{
 
   TIPS{
     {"Get survivability items first and mana regen items latter (the mana costs increase a lot in levels 12-14)."},
-    {"Stay in close, to spam",Q,"and amplyfy damage with",R,".",
-      "You are very tanky wearly on."},
+    {"Stay in close, to spam",Q,"and amplify damage with",R,".",
+      "You are very hard to take down if you can continuously hit good", Q, "s."},
     {W,"can heal your",E,"."},
     tip_ab_disassemble(),
+  },
+
+  TIPS{ name="Justification",
     {"The rationale for the skill build is that low levels of",Q,"and",W,"have lower mana costs,",
       "and that there is no point in increasing the",W,"cap during the laning phase, when there are few creeps around.",
       "Finally,",E,"zombies are very strong early game.",
