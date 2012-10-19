@@ -2617,13 +2617,13 @@ Go{
 
 Go{
   heroid='Veno',
-  date={day=30, month=7, year=2012},
+  date={day=18, month=10, year=2012},
 
   SKILLBUILD{ Q, W, {MAX, E}, {MAX, Q}, {MAX, W} },
 
   ITEMBUILD{
     {I_STARTING,
-      'courier', {3, 'branches'}, 'flask', 'tango', {2, 'clarity'} },
+      {ALT, 'courier', 'ward_observer'}, {3, 'branches'}, 'flask', 'tango', {2, 'clarity'} },
     {I_CORE,
       'magic_wand', 'arcane_boots', 'ward_observer'},
     {I_LUXURY,
@@ -2656,7 +2656,7 @@ Go{
 
 Go{
   heroid='Viper',
-  date={day=30, month=7, year=2012},
+  date={day=18, month=10, year=2012},
 
   SKILLBUILD{
     {3, Q}, {MAX, W}, {MAX, E}, {MAX, Q}
@@ -2666,7 +2666,7 @@ Go{
     {I_STARTING,
       'circlet', {3, 'branches'}, 'flask', 'tango' },
     {I_CORE,
-      'magic_wand', 'power_treads', 'wraith_band', 'manta'},
+      'magic_wand', 'power_treads', 'manta', {OPT, 'ultimate_scepter'}},
     {I_LUXURY,
       'black_king_bar', 'butterfly', 'heart', 'monkey_king_bar' },
   },
