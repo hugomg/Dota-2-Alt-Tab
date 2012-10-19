@@ -4169,7 +4169,7 @@ Go{
 
 Go{
   heroid='QoP',
-  date={day=30, month=7, year=2012},
+  date={day=18, month=10, year=2012},
 
   SKILLBUILD{
     W, {2, Q}, {MAX, E}, {MAX, W}, {MAX, Q}
@@ -4216,7 +4216,7 @@ Go{
 
 Go{
   heroid='Warlock',
-  date={day=30, month=7, year=2012},
+  date={day=18, month=10, year=2012},
 
   SKILLBUILD{
     {MAX, W}, {MAX, Q}, {MAX, E}
@@ -4224,7 +4224,7 @@ Go{
 
   ITEMBUILD{
     {I_STARTING,
-      'courier', 'ward_observer', 'mantle', 'branches' },
+      {ALT, 'courier', 'ward_observer'}, {3, 'branches'}, 'flask', 'tango', {3, 'clarity'}},
     {I_CORE,
       'ring_of_basilius', 'power_treads', 'mekansm' },
     {I_LUXURY,
@@ -4243,7 +4243,7 @@ Go{
       "In teamfights, it is a strong AoE damage amplifier."},
 
     {"All your spells are fairly weak on their own but become very strong",
-      "if you can combo with more aoE damage and disables from your team."},
+      "if you can combo with more AoE damage and disables from your team."},
 
     {"Always micro the summoned", R, "Infernal - it deals good damage and is also",
       "a great tower pusher."}
