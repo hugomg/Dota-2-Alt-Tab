@@ -1009,27 +1009,31 @@ Go{
 
 Go{
   heroid='Naix',
-  date={day=30, month=7, year=2012},
+  date={day=18, month=10, year=2012},
 
-  SKILLBUILD{
-    E, {MAX, W}, {MAX, Q}, {MAX, E}
+  SKILLBUILD{ name="Jungle Skills",
+    {MAX, W}, E, {MAX, Q}, {MAX, E}
+  },
+
+  SKILLBUILD{ name="Laning Skills",
+    E, Q, {MAX, W}, {MAX, Q}, {MAX, E}
   },
 
   ITEMBUILD{
     {I_STARTING,
-      'stout_shield', {3, 'branches'}, 'flask', 'tango' },
+      {3, 'branches'}, 'stout_shield', 'flask', 'tango' },
     {I_CORE,
       {OPT, 'quelling_blade', 'hand_of_midas'},
       'magic_wand', 'power_treads', 'armlet' },
     {I_LUXURY,
       'desolator', 'basher', 'hyperstone',
-      'assault', 'mjollnir', 'abyssal_blade' },
+      'assault', 'mjollnir', 'abyssal_blade', 'blink' },
   },
 
   HERODESC{
     {THIS, "is a carry.",
       Q,"'s magic immunity gives him a window of time to deal damage unimpeded and ",
-      E," adds significant damage to his attacks (especially against low armour and high HP heroes)."},
+      W," adds significant damage to his attacks (especially against low armour and high HP heroes)."},
     --TODO (infest comments):
     -- Heroes with good mobility, like Storm Spirit or ]]..Heroes.Prophet.nick..
   },
