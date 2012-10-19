@@ -3882,7 +3882,7 @@ end
 
 Go{
   heroid='Lion',
-  date={day=30, month=7, year=2012},
+  date={day=18, month=10, year=2012},
 
   SKILLBUILD{
     {MAX, Q}, {MAX, W}, E, {MAX, S},
@@ -3890,10 +3890,10 @@ Go{
 
   ITEMBUILD{
     {I_STARTING,
-      {2, 'mantle'}, {2, 'branches'}, 'flask', 'tango' },
+      {ALT, 'courier', 'ward_observer'}, 'mantle', {2, 'branches'}, 'flask', 'tango' },
     {I_CORE,
       {OPT, 'null_talisman', 'null_talisman', 'magic_wand' },
-      'bottle', 'power_treads', 'blink' },
+      'phase_boots', 'blink' },
     {I_LUXURY,
       'ward_observer', 'force_staff', 'sheepstick', 'ghost', 'black_king_bar' },
   },
