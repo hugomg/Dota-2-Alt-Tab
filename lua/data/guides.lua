@@ -1568,7 +1568,7 @@ Go{
 
 Go{
   heroid='Jugger',
-  date={day=30, month=7, year=2012},
+  date={day=18, month=10, year=2012},
 
   SKILLBUILD{
     {MAX, Q}, S, W, {MAX, E}, {MAX, W}
@@ -1811,7 +1811,7 @@ Go{
 
 Go{
   heroid='POTM',
-  date={day=30, month=7, year=2012},
+  date={day=18, month=10, year=2012},
 
   SKILLBUILD{
     {1, W}, {1, E}, {MAX, Q}, {MAX, W}, {MAX, R}, {MAX, E}
@@ -1838,8 +1838,8 @@ Go{
   },
 
   TIPS{
-
-  }
+	{"Your ", R, " is basically a global smoke of deceit for your team that doesn't break when you get near enemies."},
+  },
 
 }
 
