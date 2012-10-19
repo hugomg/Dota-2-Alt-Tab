@@ -3733,7 +3733,7 @@ Go{
 
 Go{
   heroid='Bane',
-  date={day=30, month=7, year=2012},
+  date={day=18, month=10, year=2012},
 
   SKILLBUILD{
     E, {MAX, W}, {MAX, E}, {MAX, Q}
@@ -3767,7 +3767,7 @@ Go{
 
 Go{
   heroid='DS',
-  date={day=30, month=7, year=2012},
+  date={day=18, month=10, year=2012},
 
   SKILLBUILD{
     {MAX, W}, E, {MAX, Q}, {MAX, R}, {MAX, E},
@@ -3779,7 +3779,7 @@ Go{
     {I_CORE,
       'soul_ring', 'vanguard', 'arcane_boots', 'cloak' },
     {I_LUXURY,
-      'void_stone', 'pipe', 'shivas_guard', 'ultimate_scepter', 'sheepstick' },
+      'pipe', 'shivas_guard', 'ultimate_scepter', 'sheepstick' },
   },
 
   HERODESC{
@@ -3816,7 +3816,7 @@ local krob_starting = {I_STARTING,
 
 Go{
   heroid='Krob',
-  date={day=30, month=7, year=2012},
+  date={day=18, month=10, year=2012},
 
   SKILLBUILD{
     {MAX, Q}, E, W, {MAX, E}, {MAX, W}
