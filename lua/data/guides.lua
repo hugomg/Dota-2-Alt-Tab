@@ -2275,7 +2275,7 @@ Go{
 
 Go{
   heroid='BS',
-  date={day=30, month=7, year=2012},
+  date={day=18, month=10, year=2012},
 
   SKILLBUILD{
     {2, W}, Q, {MAX, E}, {MAX, W}, {MAX, Q}
@@ -2287,7 +2287,7 @@ Go{
     {I_CORE,
       'poor_mans_shield', 'phase_boots', 'radiance', {OPT, 'hand_of_midas'} },
     {I_LUXURY,
-      'dagon', 'monkey_king_bar', 'desolator',
+      {OPT, 'force_staff'}, 'dagon', 'monkey_king_bar', 'desolator',
       'diffusal_blade', 'black_king_bar', 'butterfly' },
   },
 
@@ -2313,7 +2313,7 @@ Go{
 
 Go{
   heroid='Clinkz',
-  date={day=30, month=7, year=2012},
+  date={day=18, month=10, year=2012},
 
   SKILLBUILD{
     E, {MAX, W}, E, {MAX, Q}, {MAX, E}
@@ -2349,9 +2349,9 @@ Go{
 
 Go{
   heroid='Brood',
-  date={day=30, month=7, year=2012},
+  date={day=18, month=10, year=2012},
 
-  SKILLBUILD{ W, {MAX, Q}, {MAX, W}, {MAX, E} },
+  SKILLBUILD{ W, {MAX, Q}, {MAX, W}, {MAX, R}, {MAX, E} },
 
   ITEMBUILD{
     {I_STARTING,
@@ -2383,15 +2383,15 @@ Go{
 
 Go{
   heroid='NA',
-  date={day=30, month=7, year=2012},
+  date={day=18, month=10, year=2012},
 
   SKILLBUILD{
-    {MAX, Q}, W, E, {MAX, W}, {MAX, E}
+    {MAX, Q}, W, {MAX, E}, {MAX, W},
   },
 
   ITEMBUILD{
     {I_STARTING,
-      'mantle', 'slippers', 'branches', 'flask', 'tango', 'clarity'},
+      {3,'branches'}, 'flask', 'tango', {3, 'clarity'}},
     {I_CORE,
       'magic_wand', 'arcane_boots', 'urn_of_shadows', 'dagon'},
     {I_LUXURY,
