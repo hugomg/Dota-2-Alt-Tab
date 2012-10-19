@@ -1649,10 +1649,10 @@ Go{
 
 Go{
   heroid='Luna',
-  date={day=30, month=7, year=2012},
+  date={day=18, month=10, year=2012},
 
   SKILLBUILD{
-    E, {MAX, Q}, {3,S}, {MAX, W}
+    E, {MAX, Q}, {MAX,E}, {MAX, W}
   },
 
   ITEMBUILD{
@@ -2034,7 +2034,7 @@ Go{
 
 Go{
   heroid='TA',
-  date={day=30, month=7, year=2012},
+  date={day=18, month=10, year=2012},
 
   SKILLBUILD{
     {MAX, Q}, E, {MAX, W}, {MAX, E}
