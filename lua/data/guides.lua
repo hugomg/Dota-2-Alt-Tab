@@ -3089,12 +3089,12 @@ Go{
   heroid='Prophet',
   date={day=18, month=10, year=2012},
 
-  SKILLBUILD{ name="Laning Skills",
-    Q, W, {3, E}, {MAX, W}, E, {MAX, Q}
-  },
-
   SKILLBUILD{ name="Jungling Skills",
     E, W, Q, {MAX, E}, {MAX, W}, {MAX, Q}
+  },
+
+  SKILLBUILD{ name="Laning Skills",
+    Q, W, {3, E}, {MAX, W}, E, {MAX, Q}
   },
 
   ITEMBUILD{ name="Jungle Items",
