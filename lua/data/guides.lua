@@ -3034,9 +3034,9 @@ Go{
 
 Go{
   heroid='KOTL',
-  date={day=30, month=7, year=2012},
+  date={day=18, month=10, year=2012},
 
-  SKILLBUILD{ {MAX, E}, {MAX, Q}, {MAX, R}, {MAX, W} },
+  SKILLBUILD{ Q, {MAX, E}, {MAX, Q}, {MAX, R}, {MAX, W} },
 
   ITEMBUILD{
     {I_STARTING,
@@ -3168,7 +3168,7 @@ end
 
 Go{
   heroid='Silencer',
-  date={day=30, month=7, year=2012},
+  date={day=18, month=10, year=2012},
 
   SKILLBUILD{
     {MAX, W}, S, {MAX, E}, {MAX, S}, {MAX, Q}
@@ -3331,9 +3331,9 @@ Go{
 
 Go{
   heroid='Disruptor',
-  date={day=30, month=7, year=2012},
+  date={day=18, month=10, year=2012},
 
-  SKILLBUILD{ name="Solo Lane",
+  SKILLBUILD{ name="Mid Solo",
     R, {MAX, Q}, E, {MAX, W}, {MAX, E}, {MAX, R}
   },
 
@@ -3374,7 +3374,7 @@ Go{
 
 Go{
   heroid='Ogre',
-  date={day=30, month=7, year=2012},
+  date={day=18, month=10, year=2012},
 
   SKILLBUILD{
     {MAX, Q}, {MAX, W}, {MAX, R}, {MAX, E}
@@ -3613,7 +3613,7 @@ Go{
 
 Go{
   heroid='Rubick',
-  date={day=10, month=10, year=2012},
+  date={day=18, month=10, year=2012},
 
   SKILLBUILD{
     {2, Q}, {MAX, W}, {MAX, E}, {MAX, Q}, {MAX, W},
