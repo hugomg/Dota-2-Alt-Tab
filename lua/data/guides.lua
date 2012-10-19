@@ -381,7 +381,7 @@ Go{
 
 Go{
   heroid='Brew',
-  date={day=30, month=7, year=2012},
+  date={day=18, month=10, year=2012},
 
   SKILLBUILD{ {MAX, Q}, {2, S}, {MAX, E}, {MAX, W} },
 
@@ -548,15 +548,15 @@ Go{
 
 Go{
   heroid='Treant',
-  date={day=30, month=7, year=2012},
+  date={day=18, month=10, year=2012},
 
   SKILLBUILD{
-    E, W, Q, {MAX, W}, {MAX, E}, {MAX, Q}
+    {MAX, E}, Q, {MAX, W}, {MAX, Q}
   },
 
   ITEMBUILD{
     {I_STARTING,
-      'courier', {3, 'branches'}, 'flask', 'tango', {2, 'clarity'} },
+		{ALT, 'courier', 'ward_observer'}, {3, 'branches'}, 'flask', 'tango', {2, 'clarity'} },
     {I_CORE,
       'soul_ring', 'arcane_boots' },
     {I_LUXURY,
@@ -566,23 +566,13 @@ Go{
   HERODESC{
     {THIS,"is a support hero with good defensive laning skills.",
      W,"is great for diving and counter-diving and",Q,"can save allies from ganks.",
-     "Finally,",E,"helps allies all over the map (during the day) and ",R,"is a decent team-fight spell."},
+     "Finally,",E,"can be used to help allies win any lane and ",R,"is a decent team-fight spell."},
   },
 
   TIPS{
     {THIS,"can cast spells under",Q,"without breaking invis. (But allies can't)"},
     {Q,"is not only for escaping. Use it as a",I'smoke_of_deceit',"to set up ganks"},
     {R,"will entangle opponents that used BKB before you cast it, but if they cast BKB after they get entangled they will break free."},
-  },
-
-  TIPS{ name=T_BUILD_JUSTIFICATION,
-
-    {"The idea behind this skill build is to get at least two levels in ",E,
-     "(during the day, when its more effective) and then either proceed to max",W,
-     "if you need to take part or defend against ganks, or",E,
-     "if everyone is playing passive." },
-
-    {"For the item build,",THIS,"is very item independent, as all he needs is some some minor mana regen. After that, feel free to get whatever supportive items you feel will be good for your team."},
   },
 }
 
