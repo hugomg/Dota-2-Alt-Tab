@@ -1571,14 +1571,14 @@ Go{
   date={day=30, month=7, year=2012},
 
   SKILLBUILD{
-    {MAX, Q}, S, E, W, {MAX, E}, {MAX, W}
+    {MAX, Q}, S, W, {MAX, E}, {MAX, W}
   },
 
   ITEMBUILD{
     {I_STARTING,
       {2,'branches'}, 'slippers', 'flask', 'tango', {3,'clarity'}},
     {I_CORE,
-      'magic_wand', 'poor_mans_shield', 'phase_boots', 'bfury', 'ancient_janggo'},
+      'soul_ring', 'poor_mans_shield', 'phase_boots', 'bfury', 'ancient_janggo'},
     {I_LUXURY,
       {ALT, 'manta', 'sange_and_yasha'}, 'desolator', 'assault', 'butterfly' },
   },
