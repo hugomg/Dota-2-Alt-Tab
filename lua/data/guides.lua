@@ -2692,7 +2692,7 @@ Go{
 
 Go{
   heroid='Meepo',
-  date={day=30, month=7, year=2012},
+  date={day=18, month=10, year=2012},
 
   SKILLBUILD{
     Q, {MAX, W}, E, {MAX, Q}, {MAX, E}
@@ -2729,7 +2729,7 @@ Go{
       Q, 'or', W, 'combos.'},
   },
 
-  TIPS{ name="Divided we Stand Mechanics",
+  TIPS{ name="Divided We Stand Mechanics",
     {"You get 2 total Meepos at level 6, 3 at level 11 and 4 at level 16."},
     {"Each Meepo clone is a fully controlable hero and has separate health, mana and cooldowns."},
     {"Clones also act as a hero for XP gain, but the XP is pooled together.",
