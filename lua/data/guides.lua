@@ -910,7 +910,7 @@ Go{
 
 Go{
   heroid='CK',
-  date={day=30, month=7, year=2012},
+  date={day=18, month=10, year=2012},
 
   SKILLBUILD{
     {MAX, Q}, {MAX, W}, {MAX, R}, {MAX, E}
@@ -948,7 +948,7 @@ Go{
 
 Go{
   heroid='Doom',
-  date={day=30, month=7, year=2012},
+  date={day=18, month=10, year=2012},
 
   SKILLBUILD{
     {MAX, Q}, W, {MAX, E}, {MAX, W}
