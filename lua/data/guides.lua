@@ -2995,7 +2995,7 @@ Go{
 
 Go{
   heroid='Chen',
-  date={day=30, month=7, year=2012},
+  date={day=18, month=10, year=2012},
 
   SKILLBUILD{
     E, {2, W}, {MAX, E}, {MAX, W}, {MAX, Q}
@@ -3003,7 +3003,7 @@ Go{
 
   ITEMBUILD{
     {I_STARTING,
-      'courier', 'ring_of_protection', 'flask' },
+      {ALT, 'courier', 'ward_observer'}, 'ring_of_protection', 'flask' },
     {I_CORE,
       'ring_of_basilius', 'arcane_boots', 'mekansm', 'ward_observer' },
     {I_LUXURY,
