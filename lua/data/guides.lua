@@ -2505,7 +2505,7 @@ Go{
 
 Go{
   heroid='SF',
-  date={day=30, month=7, year=2012},
+  date={day=18, month=10, year=2012},
 
   SKILLBUILD{
     W, {MAX, Q}, {MAX, W}, {MAX, R}, {MAX, E}
@@ -2579,7 +2579,7 @@ Go{
 
 Go{
   heroid='Spectre',
-  date={day=30, month=7, year=2012},
+  date={day=18, month=10, year=2012},
 
   SKILLBUILD{
     {MAX, Q}, E, {MAX, W}, {MAX, E}
