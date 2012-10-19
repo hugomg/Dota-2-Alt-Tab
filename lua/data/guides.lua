@@ -614,11 +614,11 @@ Go{
   heroid='Alch',
   date={day=18, month=10, year=2012},
 
-  SKILLBUILD{ name="Carry Build",
+  SKILLBUILD{ name="Carry Skills",
     W, {MAX, E}, {MAX, Q}, {MAX, W}
   },
 
-  SKILLBUILD{ name="Aggressive Build",
+  SKILLBUILD{ name="Aggressive Skills",
     {2, W}, {MAX, Q}, {MAX, E}, {MAX, W}
   },
 
@@ -1486,7 +1486,7 @@ Go{
 
 Go{
   heroid='AM',
-  date={day=30, month=7, year=2012},
+  date={day=18, month=10, year=2012},
 
   SKILLBUILD{
     W, Q, E, {MAX, Q}, {MAX, W}, {MAX, E}
@@ -1494,7 +1494,7 @@ Go{
 
   ITEMBUILD{
     {I_STARTING,
-      'stout_shield', {3, 'branches'}, 'flask', 'tango' },
+	  {3, 'branches'}, 'stout_shield', 'flask', 'tango' },
     {I_CORE,
       'ring_of_health', 'power_treads',
       {ALT, 'vanguard', 'bfury'},
@@ -1513,7 +1513,7 @@ Go{
     {"For the items, the ",I'vanguard',"is for when you are in trouble or want to fight early.",
       I'bfury',"is for farming (you clear the jungle very fast with it)."},
     tip_ministun(R),
-    {"The \"Anti Mage\" title is misleading;",
+    {"The \"Anti-Mage\" title is misleading;",
       Q,"is actually better against low-mana STR and AGI heroes and",
       E,"only makes you tanky if you also get HP items (lategame)."},
   },
@@ -1970,10 +1970,13 @@ Go{
 
 Go{
   heroid='Drow',
-  date={day=30, month=7, year=2012},
+  date={day=18, month=10, year=2012},
 
-  SKILLBUILD{
+  SKILLBUILD{ name="Carry Skills",
     Q, {MAX, E}, {MAX, W}, {MAX, S}
+  },
+  SKILLBUILD{ name="Ganker Skills",
+    {MAX, Q}, E, W, {MAX, E}, {MAX, W}
   },
 
   ITEMBUILD{
