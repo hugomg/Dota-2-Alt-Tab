@@ -350,7 +350,7 @@ Go{
 
 Go{
   heroid = 'Omni',
-  date = {day=30, month=7, year=2012},
+  date = {day=18, month=10, year=2012},
 
   SKILLBUILD{
     {MAX, Q}, W, E, {MAX, E}, {MAX, W}
