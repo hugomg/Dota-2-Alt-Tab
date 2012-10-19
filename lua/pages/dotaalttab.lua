@@ -27,6 +27,7 @@ local FULL_TAVERN_WIDTH = '53em'
 
 local GUIDE_NOTES = [=[
 <p>Last updated: October 19, 2012. Updated all guides to reflect changes since patch 6.75.</p>
+<p>Click here to download the <a href="http://www.dota2alttab.com/itembuilds.zip">In-game Recommended Items</a></p>
 <p>Suggestions, typos, bugs? Contact me at deathcalibur@dota2alttab.com</p>
 <p>Submitting a guide? Send to guides@dota2alttab.com</p>
 ]=]
@@ -58,7 +59,7 @@ local GA_CODE = [=[
     var _gaq = _gaq || [];
     _gaq.push(['_setAccount', 'UA-34781660-1']);
     _gaq.push(['_trackPageview']);
-  
+
     (function() {
       var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
       ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
@@ -143,7 +144,7 @@ print("Wrote "..n.." guides.")
 io.write([=[
 </div>
 <p class="copyright">
-Dota 2 content and materials are trademarks and copyrights of Valve or its licensors. 
+Dota 2 content and materials are trademarks and copyrights of Valve or its licensors.
 This site is not affiliated with Valve.
 </p>
 <script src="./guide.js"></script>
@@ -479,7 +480,7 @@ local function make_sprite(spriteType, direction, dimensions, image, sprites, sh
     fwrite('.s_%s.si_%s {', spriteType, s.id)
     if s.width  then fwrite(' width: %dpx;', s.width) end
     if s.height then fwrite(' height: %dpx;', s.height) end
-    
+
     if direction == 'V' then
       fwrite( ' background-position: 0 %dpx;', delta )
       delta = delta - (s.height or dimensions.height)
@@ -487,7 +488,7 @@ local function make_sprite(spriteType, direction, dimensions, image, sprites, sh
       fwrite( ' background-position: %dpx 0;', delta )
       delta = delta - (s.width or dimensions.width)
     end
-    
+
     fwrite('}\n')
   end
 
@@ -508,7 +509,7 @@ local function sprite_ids_from_datatable(datatable, filter_dota2)
     return string.upper(x.id)..'z'
     --append z so that sangeandyasha comes before sange, like it does with ls.
   end
-  
+
   table.sort(ids, function(x1, x2) return k(x1) < k(x2) end)
 
   return ids

@@ -1097,7 +1097,7 @@ Go{
 
 Go{
   heroid='Lycan',
-  date={day=30, month=7, year=2012},
+  date={day=18, month=10, year=2012},
 
   SKILLBUILD{
     {MAX, Q}, {MAX, E}, {MAX, W}
@@ -1115,15 +1115,13 @@ Go{
   },
 
   HERODESC{
-    {THIS, "is a strong jungler who can come out of the forest with solid midgame carrying potential.",
+    {THIS, "is a carry who used to be a strong jungler, but got nerfed heavily in 6.75. He is still a strong hero, but not quite the pub-stomper he once was.",
       "He excells at ganking lone heroes and taking down undefended towers with his summons."},
   },
 
   TIPS{
-    {"Jungling tips: ",Q,"at the fountain, to get your mana back.",
-      "Start with the easy and pullable camps until you reach level 3. Micro the damaged wolves back before they die."},
 
-    {"It is possible to solo Roshan with wolves, maxed",E,"and",I'vladmir',"."},
+    {"It is still possible to solo Roshan with wolves, maxed",E,"and",I'vladmir',"; however, you need an additional item such as a Medallion of Courage."},
 
     {W,"is global and very cheap so don't forget to use it."},
   }
