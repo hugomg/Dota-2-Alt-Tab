@@ -2873,7 +2873,7 @@ Go{
 
 Go{
   heroid='CM',
-  date={day=30, month=7, year=2012},
+  date={day=18, month=10, year=2012},
 
   SKILLBUILD{
     Q, W, {2, E}, {MAX, Q}, {MAX, W}, {MAX, E}, {MAX, R}
@@ -2960,7 +2960,7 @@ Go{
 
 Go{
   heroid='Puck',
-  date={day=30, month=7, year=2012},
+  date={day=18, month=10, year=2012},
 
   SKILLBUILD{
     {MAX, Q}, E, {MAX, W}, {MAX, E}
@@ -2984,9 +2984,9 @@ Go{
   TIPS{
     { "Use", E, "to avoid harass damage during the laning phase."},
 
-    { "Level 4 of", E, "lasts long enough to re-enable a disabled", I'blink', ". This makes you hard ot kill."},
+    { "Level 4 of", E, "lasts long enough to re-enable a disabled", I'blink', ". This makes you hard to kill."},
 
-    { "Initiationg with", I'blink', "is faster, and lets you use", Q, "to escape."},
+    { "Initiating with", I'blink', "is faster, and lets you use", Q, "to escape."},
   },
 
 }
