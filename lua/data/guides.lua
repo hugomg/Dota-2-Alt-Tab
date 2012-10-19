@@ -1948,7 +1948,7 @@ Go{
 
 Go{
   heroid='Gyro',
-  date={day=30, month=7, year=2012},
+  date={day=18, month=10, year=2012},
 
   SKILLBUILD{
     W, {MAX, Q}, {MAX, W}, {MAX, E}
@@ -1965,7 +1965,7 @@ Go{
   },
 
   HERODESC{
-    {THIS, "is a semicarry with some nuking and ganking potential early game",
+    {THIS, "is a semi-carry with some nuking and ganking potential early game",
       "and some carry and AoE potential lategame.",
       "Early on, get some cheap health and mana regen and try to pull of some ganks.",
       "If you are successful you can carry your advantage into the lategame",
@@ -2072,7 +2072,7 @@ Go{
 
 Go{
   heroid='Ursa',
-  date={day=30, month=7, year=2012},
+  date={day=18, month=10, year=2012},
 
   SKILLBUILD{
     {3, W}, {MAX, E}, {MAX, W}, {MAX, Q},
@@ -2080,7 +2080,7 @@ Go{
 
   ITEMBUILD{
     {I_STARTING,
-      'stout_shield', 'branches', 'flask', {2, 'tango'} },
+      'branches', 'stout_shield', 'flask', {2, 'tango'} },
     {I_CORE,
       'tranquil_boots', SEQ, 'phase_boots', 'vladmir', 'blink' },
     {I_LUXURY,
