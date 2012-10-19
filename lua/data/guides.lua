@@ -188,7 +188,7 @@ Go{
 
 Go{
   heroid = 'Beast',
-  date = {day=30, month=7, year=2012},
+  date = {day=18, month=10, year=2012},
 
   SKILLBUILD{
     Q, {MAX, W}, {MAX, Q}, {MAX, E}
@@ -198,7 +198,7 @@ Go{
     {I_STARTING,
       {4, 'branches'}, 'flask', 'tango'},
     {I_CORE,
-      'bottle', 'magic_wand', 'boots', 'vanguard', 'blink'},
+      'soul_ring', 'magic_wand', 'boots', 'vanguard', 'blink'},
     {I_LUXURY,
       'necronomicon', {ALT, 'arcane_boots', 'travel_boots'}, 'vladmir', 'pipe'},
   },
@@ -210,6 +210,8 @@ Go{
 
   TIPS{
     { "You can use ", W, "summons and a ", I'gem', "to destroy wards." },
+
+	{ "At higher levels of play, Beastmaster is often played as a hard-lane solo by stacking the ancients with his ", Q,". Start with sentry wards if you can to prevent blocks on the ancients." },
 
     { I'travel_boots', " can be used to teleport to your pets. This is especially great if you have a",H'Tinker',"on the team."}
   }
