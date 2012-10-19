@@ -2160,7 +2160,7 @@ Go{
 
 Go{
   heroid='BH',
-  date={day=30, month=7, year=2012},
+  date={day=18, month=10, year=2012},
 
   SKILLBUILD{ name = "Hard lane",
     {2, E}, W, {MAX, Q}, {MAX, W}, {MAX, E}
@@ -2169,16 +2169,27 @@ Go{
   SKILLBUILD{ name = "Safe lane",
     {2, W}, E, {2, Q}, {MAX, W}, {MAX, Q}, {MAX, E}
   },
-
-  ITEMBUILD{
+  ITEMBUILD{ name="Hard Lane Items",
     {I_STARTING,
-      'stout_shield', {3, 'branches'}, 'flask', 'tango' },
+      'branches', 'stout_shield', {2, 'clarity'}, 'flask', 'tango' },
     {I_CORE,
-      'poor_mans_shield', 'power_treads', 'ring_of_aquila', 'bottle' },
+      'poor_mans_shield', 'power_treads', 'medallion_of_courage',},
     {I_LUXURY,
-      'ancient_janggo', 'desolator', 'monkey_king_bar',
+      'ancient_janggo', 'black_king_bar', 'desolator', 'monkey_king_bar',
       'butterfly', 'manta' },
   },
+
+  ITEMBUILD{ name="Safe Lane Items",
+    {I_STARTING,
+      {3, 'branches'}, 'stout_shield', 'flask', 'tango' },
+    {I_CORE,
+      'poor_mans_shield', 'power_treads', 'medallion_of_courage',},
+    {I_LUXURY,
+      'ancient_janggo', 'black_king_bar', 'desolator', 'monkey_king_bar',
+      'butterfly', 'manta' },
+  },
+
+
 
   HERODESC{
     {THIS, "is a ganker and semi-carry.",
