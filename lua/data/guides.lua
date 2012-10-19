@@ -872,7 +872,7 @@ Go{
 
 Go{
   heroid='Axe',
-  date={day=30, month=7, year=2012},
+  date={day=18, month=10, year=2012},
 
   SKILLBUILD{
     E, {MAX, W}, Q, {MAX, E}, {MAX, Q}
@@ -880,11 +880,11 @@ Go{
 
   ITEMBUILD{
     {I_STARTING,
-      'stout_shield', {3, 'branches'}, 'flask', 'tango' },
+      'stout_shield', {3, 'branches'}, 'stout_shield', 'flask', 'tango' },
     {I_CORE,
-      'magic_wand', 'vanguard', 'arcane_boots', 'blink', 'hood_of_defiance'},
+      'tranquil_boots', 'soul_ring', 'vanguard', 'blink', 'hood_of_defiance'},
     {I_LUXURY,
-      'pipe', 'shivas_guard', 'assault', 'travel_boots' }
+      'pipe', 'blade_mail', 'shivas_guard', 'assault', 'travel_boots' }
   },
 
   HERODESC{
