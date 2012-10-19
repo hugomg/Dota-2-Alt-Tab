@@ -4074,7 +4074,7 @@ Go{
 
 Go{
   heroid='Pugna',
-  date={day=30, month=7, year=2012},
+  date={day=18, month=10, year=2012},
 
   SKILLBUILD{
     {MAX, Q}, W, {MAX, E}, {MAX, W}
@@ -4114,7 +4114,7 @@ Go{
 
 Go{
   heroid='OD',
-  date={day=30, month=7, year=2012},
+  date={day=18, month=10, year=2012},
 
   SKILLBUILD{ {3, W}, {MAX, E}, {MAX, R}, {MAX, Q}, {MAX, W} },
 
@@ -4122,9 +4122,9 @@ Go{
     {I_STARTING,
       'mantle', {3, 'branches'}, {2, 'tango'}, 'flask' },
     {I_CORE,
-      'magic_wand', 'power_treads', 'mekansm', 'force_staff' },
+      'magic_wand', 'power_treads', 'force_staff', 'rod_of_atos' },
     {I_LUXURY,
-      'rod_of_atos', 'sheepstick', 'black_king_bar', 'shivas_guard', 'hyperstone', 'heart' },
+      'sheepstick', 'black_king_bar', 'shivas_guard', 'hyperstone', 'heart' },
   },
 
   HERODESC{
