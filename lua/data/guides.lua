@@ -46,7 +46,7 @@ local function tip_version_specific(version, tip)
 end
 
 local function tip_ministun(skillname)
-  return { skillname, "does a ministun. Use it to cancel chanelling spells and TPs."}
+  return { skillname, "does a ministun. Use it to cancel channelling spells and TPs."}
 end
 
 local function tip_ab_disassemble()
@@ -1132,7 +1132,7 @@ Go{
 
 Go{
   heroid='NS',
-  date={day=30, month=7, year=2012},
+  date={day=18, month=10, year=2012},
 
   SKILLBUILD{
     Q, W, Q, E, Q, E, Q, R, {MAX, R}, {MAX, E}, {MAX, W}
@@ -1207,7 +1207,7 @@ Go{
 
 Go{
   heroid='Pudge',
-  date={day=30, month=7, year=2012},
+  date={day=18, month=10, year=2012},
 
   SKILLBUILD{
     W, {MAX, Q}, {MAX, W}, {MAX, E}
@@ -1248,7 +1248,7 @@ Go{
 
 Go{
   heroid='Leoric',
-  date={day=30, month=7, year=2012},
+  date={day=18, month=10, year=2012},
 
   SKILLBUILD{
     {MAX, Q}, {2, S}, {1, W}, {MAX, E}, {MAX, W}
@@ -1256,7 +1256,7 @@ Go{
 
   ITEMBUILD{
     {I_STARTING,
-      'gauntlets', {3, 'branches'}, {2, 'tango'} },
+      {3, 'branches'}, 'stout_shield', 'flask', 'tango' },
     {I_CORE,
       {OPT, 'quelling_blade'}, 'magic_wand', 'armlet', 'power_treads' },
     {I_LUXURY,
