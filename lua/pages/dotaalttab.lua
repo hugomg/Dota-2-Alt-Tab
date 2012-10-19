@@ -144,7 +144,7 @@ print("Wrote "..n.." guides.")
 io.write([=[
 </div>
 <p class="copyright">
-Dota 2 content and materials are trademarks and copyrights of Valve or its licensors.
+&copy; Brendan Mulcahy 2012. Dota 2 content and materials are trademarks and copyrights of Valve or its licensors.
 This site is not affiliated with Valve.
 </p>
 <script src="./guide.js"></script>

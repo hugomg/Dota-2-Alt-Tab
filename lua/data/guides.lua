@@ -4600,7 +4600,7 @@ Go{
 
 Go{
   heroid='WD',
-  date={day=30, month=7, year=2012},
+  date={day=18, month=10, year=2012},
 
   SKILLBUILD{
     {MAX, Q}, W, {MAX, E}, {MAX, W}
@@ -4610,7 +4610,7 @@ Go{
     {I_STARTING,
       {4, 'branches'}, {2, 'tango'}, {2, 'clarity'} },
     {I_CORE,
-      'boots', 'magic_wand', 'urn_of_shadows', 'point_booster' },
+      'phase_boots', 'magic_wand', 'urn_of_shadows', 'point_booster' },
     {I_LUXURY,
       'medallion_of_courage', 'ultimate_scepter', 'black_king_bar',
       'force_staff', 'blink', 'sheepstick' },
@@ -4640,7 +4640,7 @@ Go{
 
 Go{
   heroid='AA',
-  date={day=30, month=7, year=2012},
+  date={day=18, month=10, year=2012},
 
   SKILLBUILD{
     {MAX, Q}, {MAX, W}, {MAX, S}, {MAX, E}
@@ -4648,7 +4648,7 @@ Go{
 
   ITEMBUILD{
     {I_STARTING,
-      {3, 'branches'}, {2, 'tango'}, {2, 'clarity'}, 'flask' },
+      {ALT, 'courier', 'ward_observer'}, {3, 'branches'}, 'flask', 'tango', {3, 'clarity'}},
     {I_CORE,
       'boots', 'magic_wand', 'mekansm', 'force_staff', 'urn_of_shadows' },
     {I_LUXURY,
