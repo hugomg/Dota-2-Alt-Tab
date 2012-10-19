@@ -1430,15 +1430,15 @@ Go{
 
 Go{
   heroid='SB',
-  date={day=30, month=7, year=2012},
+  date={day=18, month=10, year=2012},
 
   SKILLBUILD{
-    Q, E, {MAX, W}, {MAX, Q}, {MAX, E}
+    Q, E, W, {MAX, E}, {MAX, Q}, {MAX, W}
   },
 
   ITEMBUILD{
     {I_STARTING,
-      'magic_stick', {3, 'branches'}, {2, 'tango'} },
+      {3, 'branches'}, 'stout_shield', 'flask', 'tango' },
     {I_CORE,
       'magic_wand', 'power_treads', 'mask_of_madness' },
     {I_LUXURY,
@@ -1447,20 +1447,20 @@ Go{
   },
 
   HERODESC{
-    {THIS,"is, at heart, a 1v1 hero (so he only really works well on pubs, to be honest).",
-      "He can gank fantastically (if your opponents don't check their status bar for",Q,")",
+    {THIS,"is, at heart, a 1v1 hero that provides strong anti-carry potential with ", E,".",
+      "He can gank fantastically (", Q," no longer creates a status debuff)",
       "and has the only bash in DotA that has the potential to be a literal perma-bash."},
   },
 
   TIPS{
 
-    {"The",I'mask_of_madness',"build has good killing potential early, but get less effective latter",
+    {"The",I'mask_of_madness',"build has good killing potential early, but get less effective later",
       "and forces you to get a BKB and/or survivability items. Go for ",I'mjollnir'," or ",I'assault',
       "if you want more survivability."},
 
-    {Q,"gives vision, even on invisible heroes. Use this to help ganks."},
+    {Q,"gives vision, even on invisible heroes (although it doesn't reveal, it still shows where they are). Use this to help ganks."},
 
-    {E,"has the same percentage chance at every level, which is why one level is fine early on."},
+    {E," scales with levels now so can't really pass it up and ", W, " doesn't provide as much benefit in the early game as it used to."},
   }
 
 }
