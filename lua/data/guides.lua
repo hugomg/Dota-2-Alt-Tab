@@ -3968,10 +3968,10 @@ Go{
 
 Go{
   heroid='Lich',
-  date={day=30, month=7, year=2012},
+  date={day=18, month=10, year=2012},
 
   SKILLBUILD{
-    E, {MAX, Q}, {MAX, E}, {MAX, W}
+    E, {MAX, Q}, E, W, {MAX, E}, {MAX, W}
   },
 
   ITEMBUILD{
