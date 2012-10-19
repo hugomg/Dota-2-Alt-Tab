@@ -1530,7 +1530,7 @@ Go{
 
 Go{
   heroid='Sniper',
-  date={day=30, month=7, year=2012},
+  date={day=18, month=10, year=2012},
 
   SKILLBUILD{
     W, E, {MAX, Q}, {MAX, E}, {MAX, W}
@@ -1540,9 +1540,9 @@ Go{
     {I_STARTING,
       {2, 'slippers'}, {2, 'branches'}, 'flask', 'tango' },
     {I_CORE,
-      'ring_of_aquila', 'wraith_band', 'power_treads', 'helm_of_the_dominator' },
+      'wraith_band', 'power_treads', 'manta' },
     {I_LUXURY,
-      'manta', 'butterfly', 'black_king_bar', 'monkey_king_bar',
+      'helm_of_the_dominator', 'butterfly', 'black_king_bar', 'monkey_king_bar',
       'greater_crit', 'satanic', 'skadi' },
   },
 
@@ -1556,6 +1556,7 @@ Go{
 
   TIPS{
     {Q,"deals residual damage to towers (Good for pushing and harassing)."},
+	{"Some players like to skip putting levels into ", Q, ", instead getting his other skills sooner."},
 
     {versions={1},
       W,"and MKB's True Strike don't stack.",
@@ -1860,7 +1861,7 @@ Go{
 
 Go{
   heroid='Riki',
-  date={day=30, month=7, year=2012},
+  date={day=18, month=10, year=2012},
 
   SKILLBUILD{
     W, Q, E, {MAX, W}, {MAX, E}, {MAX, Q}
@@ -2119,7 +2120,7 @@ Go{
 
 Go{
   heroid='VS',
-  date={day=30, month=7, year=2012},
+  date={day=18, month=10, year=2012},
 
   SKILLBUILD{
     {MAX, Q}, W, E, {MAX, W}, {MAX, E}
