@@ -713,15 +713,14 @@ Go{
 
 Go{
   heroid='DK',
-  date={day=30, month=7, year=2012},
+  date={day=18, month=10, year=2012},
 
   SKILLBUILD{
     {1, R}, {1, W}, {1, E}, {MAX, Q}, {MAX, E}, {MAX, W}, S, {MAX, R}
   },
 
   ITEMBUILD{
-    {I_STARTING,
-      {2, 'gauntlets'}, 'flask', {2, 'tango'} },
+	{I_STARTING, {3, 'branches'}, 'flask', 'tango', 'stout_shield' },
     {I_CORE,
       {OPT, 'quelling_blade', 'urn_of_shadows', 'soul_ring'},
       'power_treads', 'black_king_bar', 'helm_of_the_dominator' },
