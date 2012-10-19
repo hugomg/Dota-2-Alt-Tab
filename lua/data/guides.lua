@@ -4401,7 +4401,7 @@ end
 
 Go{
   heroid='Invoker',
-  date={day=30, month=7, year=2012},
+  date={day=18, month=10, year=2012},
 
   SKILLBUILD{ name="QW Disabler", isInvoker=true,
     Q, {MAX, R}, {MAX, W}, {2, Q}, E, {MAX, Q}, {MAX, E},
@@ -4510,7 +4510,7 @@ end
 
 Go{
   heroid='Visage',
-  date={day=30, month=7, year=2012},
+  date={day=18, month=10, year=2012},
 
   SKILLBUILD{
     {MAX, W}, Q, {MAX, E}, {MAX, Q}
@@ -4530,7 +4530,7 @@ Go{
     {THIS, "loves hanging around in the middle of a teamfight,",
       "spamming", W, "for 300+ damage.",
       "He is one of the scariest trilane heroes,",
-      "althogh he can also make do with fast familiars from solo-mid XP."},
+      "although he can also make do with fast familiars from solo-mid XP."},
   },
 
   TIPS{
