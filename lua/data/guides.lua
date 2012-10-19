@@ -427,9 +427,9 @@ Go{
     {I_STARTING,
       {ALT, 'courier', 'ward_observer'}, {3, 'branches'}, 'flask', 'tango', {2, 'clarity'} },
     {I_CORE,
-      'soul_ring', 'magic_wand', 'power_treads', 'blink' },
+      'soul_ring', 'magic_wand', 'power_treads', 'black_king_bar' },
     {I_LUXURY,
-      'urn_of_shadows', 'ancient_janggo', 'mask_of_madness', 'black_king_bar',
+      {OPT, 'blink', 'invis_sword'}, 'urn_of_shadows', 'ancient_janggo', 'mask_of_madness',
       'heart'},
   },
 
@@ -551,7 +551,7 @@ Go{
   date={day=18, month=10, year=2012},
 
   SKILLBUILD{
-    {MAX, E}, Q, {MAX, W}, {MAX, Q}
+    {MAX, W}, Q, {MAX, E}, {MAX, Q}
   },
 
   ITEMBUILD{
@@ -3492,8 +3492,7 @@ Go{
   HERODESC{
     {THIS, "is an item independent support hero with good stats gain",
       "and great pushing power with", E, "(it damages and slows towers!).",
-      "However he has to deal with his low attack range and with", W, "and", R,
-      "being hard to hit."},
+      "However he has to deal with his low attack range and with his long cast animations."},
   },
 
   TIPS{
