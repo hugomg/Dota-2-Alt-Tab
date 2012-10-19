@@ -3446,19 +3446,15 @@ Go{
 
 Go{
   heroid='Jakiro',
-  date={day=30, month=7, year=2012},
+  date={day=18, month=10, year=2012},
 
-  SKILLBUILD{ name="Pushing Skills",
-    {MAX, Q}, W, {MAX, E}, {MAX, R}, {MAX, W}
-  },
-
-  SKILLBUILD{ name="Disabling Skills",
-    {MAX, Q}, {MAX, W}, {MAX, R}, {MAX, E}
+  SKILLBUILD{ name="Skills",
+    {MAX, W}, E, Q, {MAX, E}, {MAX, R}, {MAX, Q}
   },
 
   ITEMBUILD{
     {I_STARTING,
-      'courier', 'ring_of_protection', 'branches', 'flask', 'tango' },
+      {ALT, 'courier', 'ward_observer'}, 'ring_of_protection', 'branches', 'flask', 'tango' },
     {I_CORE,
       'ring_of_basilius', 'arcane_boots', 'mekansm',
       'urn_of_shadows', 'ward_observer' },
@@ -3475,6 +3471,7 @@ Go{
   },
 
   TIPS{
+	{"Jakiro is a pretty amazing hero in 6.75, and highly recommended for beginners."},
     {"Your main needs from items are armor and mana regen."}
   },
 
