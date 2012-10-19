@@ -1603,19 +1603,23 @@ Go{
 
 Go{
   heroid='LD',
-  date={day=30, month=7, year=2012},
+  date={day=18, month=10, year=2012},
 
   SKILLBUILD{
     {MAX, Q}, {MAX, E}, {MAX, W}
   },
 
   ITEMBUILD{
-    {I_STARTING,
-      {3, 'branches'}, 'flask', 'tango', 'stout_shield' },
-    {I_CORE,
-      'tranquil_boots', 'boots', 'orb_of_venom', 'radiance'},
+    {'Hero Starting',
+      {3, 'branches'}, 'flask', 'tango'},
+	{'Bear Starting',
+      'stout_shield'},
+    {'Hero Core',
+      'magic_wand', 'tranquil_boots'},
+	{'Bear Core',
+      'phase_boots', 'orb_of_venom', 'radiance'},
     {I_LUXURY,
-      'assault', 'pipe', 'mjollnir' },
+      'assault', 'mjollnir', 'pipe', 'heart', 'butterfly' },
   },
 
   HERODESC{
@@ -1723,17 +1727,26 @@ Go{
 
 Go{
   heroid='Naga',
-  date={day=30, month=7, year=2012},
+  date={day=18, month=10, year=2012},
 
   SKILLBUILD{
-    {MAX, E}, W, {MAX, Q}, {MAX, W}
+    W, {MAX, E}, Q, {MAX, W}, {MAX, Q}
   },
 
-  ITEMBUILD{
+  ITEMBUILD{ name="Standard Items",
     {I_STARTING,
-      'stout_shield', {3, 'branches'}, 'flask', 'tango' },
+      {3, 'branches'}, 'stout_shield', 'flask', 'tango' },
     {I_CORE,
       'quelling_blade', 'vanguard', 'arcane_boots', 'diffusal_blade'},
+    {I_LUXURY,
+      'heart', 'manta', 'butterfly', 'greater_crit' },
+  },
+
+  ITEMBUILD{ name="Alternate Items",
+    {I_STARTING,
+      {3, 'branches'}, 'stout_shield', 'flask', 'tango' },
+    {I_CORE,
+      'quelling_blade', 'tranquil_boots', 'soul_ring', 'radiance'},
     {I_LUXURY,
       'power_treads', 'heart', 'manta', 'butterfly', 'greater_crit' },
   },
