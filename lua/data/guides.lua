@@ -3927,15 +3927,15 @@ Go{
 
 Go{
   heroid='Enigma',
-  date={day=30, month=7, year=2012},
+  date={day=18, month=10, year=2012},
 
   SKILLBUILD{
-    {2, W}, {3, Q}, {MAX, W}, {MAX, Q}, {MAX, E}
+    {3, W}, {MAX, Q}, {MAX, W}, {MAX, E}
   },
 
   ITEMBUILD{
     {I_STARTING,
-      'courier', 'sobi_mask', {2, 'clarity'} },
+      {ALT, 'courier', 'ward_observer'}, 'sobi_mask', {2, 'clarity'} },
     {I_CORE,
       'soul_ring', 'boots', 'blink', 'mekansm' },
     {I_LUXURY,
