@@ -154,8 +154,7 @@ Go{
   },
 
   ITEMBUILD{
-    {I_STARTING,
-      {2, 'gauntlets'}, 'flask', 'tango', {2, 'clarity'}},
+	{I_STARTING, {3, 'branches'}, 'flask', 'tango', 'stout_shield' },
     {'Survivability Core',
       'magic_wand', 'phase_boots', 'vanguard', 'ancient_janggo'},
     {'Damage Core',
