@@ -386,10 +386,9 @@ Go{
   SKILLBUILD{ {MAX, Q}, {2, S}, {MAX, E}, {MAX, W} },
 
   ITEMBUILD{
-    {I_STARTING,
-      {3, 'branches'}, {2, 'tango'}, 'flask' },
+	{I_STARTING, {3, 'branches'}, 'flask', 'tango', 'stout_shield' },
     {I_CORE,
-      'magic_wand', 'phase_boots', 'ultimate_scepter', 'blink' },
+      'magic_wand', 'phase_boots', 'blink', 'ultimate_scepter'},
     {I_LUXURY,
       'necronomicon', 'shivas_guard', 'vladmir',
       'ancient_janggo', 'assault', 'pipe' },
@@ -623,20 +622,23 @@ Go{
 
 Go{
   heroid='Alch',
-  date={day=30, month=7, year=2012},
+  date={day=18, month=10, year=2012},
 
-  SKILLBUILD{
-    W, {MAX, Q}, {MAX, E}, {MAX, W}
+  SKILLBUILD{ name="Carry Build",
+    W, {MAX, E}, {MAX, Q}, {MAX, W}
+  },
+
+  SKILLBUILD{ name="Aggressive Build",
+    {2, W}, {MAX, Q}, {MAX, E}, {MAX, W}
   },
 
   ITEMBUILD{
-    {I_STARTING,
-      'stout_shield', {3, 'branches'}, 'flask', 'tango' },
+	{I_STARTING, {3, 'branches'}, 'flask', 'tango', 'stout_shield' },
     {I_CORE,
       {ALT, 'vanguard', 'hood_of_defiance'},
       'radiance', 'power_treads' },
     {I_LUXURY,
-      'assault', 'heart', 'manta', 'shivas_guard', 'mjollnir'}
+       'mjollnir', 'basher', 'assault', 'heart', 'manta', 'shivas_guard'}
   },
 
   HERODESC{
@@ -645,10 +647,9 @@ Go{
   },
 
   TIPS{
-    {R,"gives lots of health and mana back when you cast it. It is OK to use it while farming."},
+    {"Alchemist can get super farmed in a defensive or offensive tri-lane, and get maxed out items by the 30 minute mark; well before most other carries."},
 
-    {"Dropping and picking up a percentage mana regen item (such as",I'sobi_mask',")",
-      "during",R,"will permanently give extra mana regen to the item."},
+    {R,"gives lots of health and mana back when you cast it. It is OK to use it while farming."},
   },
 
   TIPS{ name=T_BUILD_VARIATIONS,
