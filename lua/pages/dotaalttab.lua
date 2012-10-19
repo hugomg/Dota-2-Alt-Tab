@@ -26,7 +26,7 @@ local SMALLER_HERO_IMG_DIMENSIONS = HERO_IMG_DIMENSIONS --{ width = 64, height =
 local FULL_TAVERN_WIDTH = '53em'
 
 local GUIDE_NOTES = [=[
-<p>Last updated: September 8th. Major layout overhaul and <a href="./itembuilds.zip">in-game recommended items</a>.</p>
+<p>Last updated: October 19, 2012. Updated all guides to reflect changes since patch 6.75.</p>
 <p>Suggestions, typos, bugs? Contact me at deathcalibur@dota2alttab.com</p>
 <p>Submitting a guide? Send to guides@dota2alttab.com</p>
 ]=]
