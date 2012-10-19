@@ -3245,19 +3245,20 @@ Go{
   heroid='Storm',
   date={day=30, month=7, year=2012},
 
+  SKILLBUILD{ name="Overload Build",
+    Q, E, {3, W}, {MAX, E}, {MAX, W}, {MAX, Q},
+  },
+
   SKILLBUILD{ name="Remnant Build",
     Q, E, {3, W}, {MAX, Q}, {MAX, W}, {MAX, E},
   },
 
-  SKILLBUILD{ name="Overload Build",
-    Q, E, {3, W}, {MAX, E}, {MAX, W}, {MAX, Q},
-  },
 
   ITEMBUILD{
     {I_STARTING,
       {2, 'mantle'}, {2, 'branches'}, 'flask', 'tango' },
     {I_CORE,
-      'magic_wand', 'bottle', 'power_treads', {OPT, 'null_talisman', 'null_talisman'} },
+      'magic_wand', 'bottle', 'arcane_boots', {OPT, 'null_talisman', 'null_talisman'} },
     {I_LUXURY,
       'black_king_bar', 'sheepstick', 'bloodstone', 'orchid', 'heart' },
   },
