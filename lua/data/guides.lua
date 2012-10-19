@@ -2748,7 +2748,7 @@ Go{
 
 Go{
   heroid='Razor',
-  date={day=30, month=7, year=2012},
+  date={day=18, month=10, year=2012},
 
   SKILLBUILD{ {MAX, Q}, W, E, {MAX, W}, {MAX, E} },
 
@@ -2820,15 +2820,15 @@ Go{
 
 Go{
   heroid='Void',
-  date={day=30, month=7, year=2012},
+  date={day=18, month=10, year=2012},
 
   SKILLBUILD{
-    Q, W, {MAX, E}, {MAX, W}, {MAX, Q}
+    Q, {MAX, W}, {MAX, E}, {MAX, Q}
   },
 
   ITEMBUILD{
     {I_STARTING,
-      'stout_shield', {3, 'branches'}, 'flask', 'tango' },
+      {3, 'branches'}, 'stout_shield', 'flask', 'tango' },
     {I_CORE,
       'poor_mans_shield', 'power_treads', 'bfury' },
     {I_LUXURY,
