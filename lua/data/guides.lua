@@ -1397,7 +1397,7 @@ Go{
 
 Go{
   heroid='Magnus',
-  date={day=30, month=7, year=2012},
+  date={day=18, month=10, year=2012},
 
   SKILLBUILD{
     E, {MAX, Q}, {MAX, E}, {MAX, W}
@@ -1405,7 +1405,7 @@ Go{
 
   ITEMBUILD{
     {I_STARTING,
-      {3, 'branches'}, 'flask', {2, 'tango'} },
+      {3, 'branches'}, 'stout_shield', 'flask', 'tango' },
     {I_CORE,
       'bottle', 'magic_wand', 'power_treads', 'blink', 'bfury' },
     {I_LUXURY,
