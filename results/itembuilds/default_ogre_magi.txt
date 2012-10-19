@@ -1,0 +1,37 @@
+itembuilds/default_ogre_magi.txt
+{
+	"author"		"Generated for dota2alttab.com by Ninguem"
+	"hero"			"npc_dota_hero_ogre_magi"
+	"Title"			"Recommended items for Ogre Magi"
+	
+	"Items"
+	{
+		"Starting"
+		{
+			"item"		"item_mantle"
+			"item"		"item_mantle"
+			"item"		"item_branches"
+			"item"		"item_branches"
+			"item"		"item_flask"
+			"item"		"item_tango"
+		}
+		
+		"Core"
+		{
+			"item"		"item_null_talisman"
+			"item"		"item_null_talisman"
+			"item"		"item_bottle"
+			"item"		"item_arcane_boots"
+		}
+		
+		"Extension"
+		{
+			"item"		"item_force_staff"
+			"item"		"item_blade_mail"
+			"item"		"item_bloodstone"
+			"item"		"item_sheepstick"
+			"item"		"item_shivas_guard"
+		}
+		
+	}
+}

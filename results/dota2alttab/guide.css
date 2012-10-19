@@ -1,0 +1,586 @@
+/* This is a computer generated file. Do not edit it by hand! */
+
+/* General body */
+
+body {
+  background-color: #080b0d;
+  color: #b4ccb6;
+  font-family: "Arial";
+}
+
+h1, h2 {
+  color: #edffd9;
+}
+
+a:link, a:visited, a:hover, a:active {
+  color: inherit;
+}
+
+.hidden { display: none }
+
+.title {
+  text-align: center;
+}
+
+.section {
+  margin: 0 auto;
+  min-width: 20em;
+  max-width: 45em;
+}
+
+.section h1 {
+  margin-left: 1em;
+}
+
+.copyright {
+  margin-top: 20em;
+  font-size: smaller;
+  color:silver;
+}
+
+/* Tavern selector */
+
+.taverns{
+  max-width: 53em;
+}
+
+.tavern {
+  display: inline-block;
+  width: 17em;
+  margin: 0 5px;
+}
+
+.tavern .s_tavern{
+  vertical-align: middle;
+  margin: 0 0.5em;
+}
+
+.tavern table {
+  margin: 0 auto;
+}
+
+.tavern td {
+  border-spacing: 0
+}
+
+.tavern a{
+  display: block;
+  height: 33px;
+}
+
+.tavern a, .s_item {
+  border-collapse: collapse;
+  border: 2px solid #080b0d;
+  cursor: pointer;
+}
+
+
+.tavern a:hover /*,.s_item:hover*/ {
+  border: 2px solid #7eaccc;
+  opacity: 0.8;
+}
+
+.tavern h3{
+  color: white;
+  text-align: center;
+}
+
+.tavern h3.str {
+  background-color: #411602;
+  background-image: -moz-linear-gradient(right,#812b05,#411602);
+  background-image: -ms-linear-gradient(right,#812b05,#411602);
+  background-image: -o-linear-gradient(right,#812b05,#411602);
+  background-image: -webkit-gradient(linear, right top, left top, from(#812b05), to(#411602));
+  /*TODO: add unprefixed gradients too*/
+}
+
+.tavern h3.agi {
+  background-color: #2b4003;
+  background-image: -moz-linear-gradient(right,#567e07,#2b4003);
+  background-image: -ms-linear-gradient(right,#567e07,#2b4003);
+  background-image: -o-linear-gradient(right,#567e07,#2b4003);
+  background-image: -webkit-gradient(linear, right top, left top, from(#567e07), to(#2b4003));
+  /*TODO: add unprefixed gradients too*/
+}
+
+.tavern h3.int {
+  background-color: #0c1c40;
+  background-image: -moz-linear-gradient(right,#193780,#0c1c40);
+  background-image: -ms-linear-gradient(right,#193780,#0c1c40);
+  background-image: -o-linear-gradient(right,#193780,#0c1c40);
+  background-image: -webkit-gradient(linear, right top, left top, from(#193780), to(#0c1c40));
+  /*TODO: add unprefixed gradients too*/
+}
+
+
+.Q { color: #9acd32; }
+.W { color: #f4a460; }
+.E { color: #4169e1; }
+.R { color: #ff0000; }
+.S { color: #ffff00; }
+
+/* Guide titles */
+
+.guide{
+  border-width: 4px 0px 0px;
+  border-style: solid;
+  border-color: #1f2b33;
+  margin: 2em 0
+}
+
+.guideHeader {
+  margin: 1em 1.5em;
+  overflow: auto;
+}
+
+.guideHeader .s_herobig {
+  float: left;
+  margin-right: 1em;
+}
+
+.guideHeader h2 {
+  float: left;
+}
+
+.guideHeader .nav {
+  float: right;
+}
+
+.guideHeader .nav a {
+  display: block;
+}
+
+/* Guide bodies */
+
+.guideBody {
+  margin: 1em;
+}
+
+.guideBody h3 {
+  margin-left: 1em;
+}
+
+.skillBuild {
+  width: 100%;
+}
+
+.tn {
+  text-align: right;
+}
+
+.itemBuild {
+  text-align: left;
+}
+
+.itemBuild .s_item,
+.itemBuild .s_symbol
+{
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+.tip {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}/* Tabs */
+
+.tabs {
+  margin: 0.5em 0;
+}
+
+.tab {
+  display: inline-block;
+  margin-right: 5px;
+  border-radius: 10px 10px 0px 0px;
+  padding: 0px 7px;
+}
+
+.tab h3 {
+  margin: 0px;
+}
+
+.tab.inactive {
+  cursor: pointer;
+  background-color: #11151a;
+}
+
+.tab.inactive:hover {
+  background-color: #374c59;
+}
+
+.tab.active {
+  background-color: #1f2b33;
+}
+
+.pane {
+  padding: 2px;
+  background-color: #1f2b33;
+}
+
+.paneContents {
+  padding: 0.5em;
+  background-color: #080b0d;
+}
+
+/* CSS sprites */
+
+.s_symbol {
+	background-image: url(./Dota2_Alt_Tab/Images/Sprites/symbols.png);
+	background-repeat: no-repeat;
+	display: inline-block;
+	height: 32px;
+}
+.s_symbol.si_Arrow { width: 38px; background-position: 0px 0;}
+.s_symbol.si_Slash { width: 10px; background-position: -38px 0;}
+.s_symbol.si_LBracket { width: 7px; background-position: -48px 0;}
+.s_symbol.si_RBracket { width: 7px; background-position: -55px 0;}
+
+.s_tavern {
+	background-image: url(./Dota2_Alt_Tab/Images/Sprites/taverns.png);
+	background-repeat: no-repeat;
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+}
+.s_tavern.si_stat_agi { background-position: 0 0px;}
+.s_tavern.si_stat_int { background-position: 0 -24px;}
+.s_tavern.si_stat_str { background-position: 0 -48px;}
+.s_tavern.si_team_scourge { background-position: 0 -72px;}
+.s_tavern.si_team_sentinel { background-position: 0 -96px;}
+
+.s_hero {
+	background-image: url(./Dota2_Alt_Tab/Images/Sprites/heroes_small.jpg);
+	background-repeat: no-repeat;
+	display: inline-block;
+	width: 59px;
+	height: 33px;
+}
+.s_hero.si_AA { background-position: 0 0px;}
+.s_hero.si_Alch { background-position: 0 -33px;}
+.s_hero.si_AM { background-position: 0 -66px;}
+.s_hero.si_Axe { background-position: 0 -99px;}
+.s_hero.si_Bane { background-position: 0 -132px;}
+.s_hero.si_Bat { background-position: 0 -165px;}
+.s_hero.si_Beast { background-position: 0 -198px;}
+.s_hero.si_BH { background-position: 0 -231px;}
+.s_hero.si_Brew { background-position: 0 -264px;}
+.s_hero.si_Brood { background-position: 0 -297px;}
+.s_hero.si_BS { background-position: 0 -330px;}
+.s_hero.si_Chen { background-position: 0 -363px;}
+.s_hero.si_CK { background-position: 0 -396px;}
+.s_hero.si_Clinkz { background-position: 0 -429px;}
+.s_hero.si_Clock { background-position: 0 -462px;}
+.s_hero.si_CM { background-position: 0 -495px;}
+.s_hero.si_Dazzle { background-position: 0 -528px;}
+.s_hero.si_Dirge { background-position: 0 -561px;}
+.s_hero.si_Disruptor { background-position: 0 -594px;}
+.s_hero.si_DK { background-position: 0 -627px;}
+.s_hero.si_Doom { background-position: 0 -660px;}
+.s_hero.si_Drow { background-position: 0 -693px;}
+.s_hero.si_DS { background-position: 0 -726px;}
+.s_hero.si_Ench { background-position: 0 -759px;}
+.s_hero.si_Enigma { background-position: 0 -792px;}
+.s_hero.si_ES { background-position: 0 -825px;}
+.s_hero.si_Gyro { background-position: 0 -858px;}
+.s_hero.si_Huskar { background-position: 0 -891px;}
+.s_hero.si_Invoker { background-position: 0 -924px;}
+.s_hero.si_Jakiro { background-position: 0 -957px;}
+.s_hero.si_Jugger { background-position: 0 -990px;}
+.s_hero.si_KOTL { background-position: 0 -1023px;}
+.s_hero.si_Krob { background-position: 0 -1056px;}
+.s_hero.si_Kunkka { background-position: 0 -1089px;}
+.s_hero.si_LD { background-position: 0 -1122px;}
+.s_hero.si_Leoric { background-position: 0 -1155px;}
+.s_hero.si_Lesh { background-position: 0 -1188px;}
+.s_hero.si_Lich { background-position: 0 -1221px;}
+.s_hero.si_Lina { background-position: 0 -1254px;}
+.s_hero.si_Lion { background-position: 0 -1287px;}
+.s_hero.si_Luna { background-position: 0 -1320px;}
+.s_hero.si_Lycan { background-position: 0 -1353px;}
+.s_hero.si_Magnus { background-position: 0 -1386px;}
+.s_hero.si_Meepo { background-position: 0 -1419px;}
+.s_hero.si_Morph { background-position: 0 -1452px;}
+.s_hero.si_Naga { background-position: 0 -1485px;}
+.s_hero.si_Naix { background-position: 0 -1518px;}
+.s_hero.si_NA { background-position: 0 -1551px;}
+.s_hero.si_Necro { background-position: 0 -1584px;}
+.s_hero.si_NS { background-position: 0 -1617px;}
+.s_hero.si_OD { background-position: 0 -1650px;}
+.s_hero.si_Ogre { background-position: 0 -1683px;}
+.s_hero.si_Omni { background-position: 0 -1716px;}
+.s_hero.si_PA { background-position: 0 -1749px;}
+.s_hero.si_PL { background-position: 0 -1782px;}
+.s_hero.si_POTM { background-position: 0 -1815px;}
+.s_hero.si_Prophet { background-position: 0 -1848px;}
+.s_hero.si_Puck { background-position: 0 -1881px;}
+.s_hero.si_Pudge { background-position: 0 -1914px;}
+.s_hero.si_Pugna { background-position: 0 -1947px;}
+.s_hero.si_QoP { background-position: 0 -1980px;}
+.s_hero.si_Razor { background-position: 0 -2013px;}
+.s_hero.si_Rhasta { background-position: 0 -2046px;}
+.s_hero.si_Riki { background-position: 0 -2079px;}
+.s_hero.si_Rubick { background-position: 0 -2112px;}
+.s_hero.si_SB { background-position: 0 -2145px;}
+.s_hero.si_SD { background-position: 0 -2178px;}
+.s_hero.si_SF { background-position: 0 -2211px;}
+.s_hero.si_Silencer { background-position: 0 -2244px;}
+.s_hero.si_SK { background-position: 0 -2277px;}
+.s_hero.si_Slardar { background-position: 0 -2310px;}
+.s_hero.si_Sniper { background-position: 0 -2343px;}
+.s_hero.si_Spectre { background-position: 0 -2376px;}
+.s_hero.si_Storm { background-position: 0 -2409px;}
+.s_hero.si_Sven { background-position: 0 -2442px;}
+.s_hero.si_TA { background-position: 0 -2475px;}
+.s_hero.si_Tide { background-position: 0 -2508px;}
+.s_hero.si_Tinker { background-position: 0 -2541px;}
+.s_hero.si_Tiny { background-position: 0 -2574px;}
+.s_hero.si_Treant { background-position: 0 -2607px;}
+.s_hero.si_Ursa { background-position: 0 -2640px;}
+.s_hero.si_Veno { background-position: 0 -2673px;}
+.s_hero.si_Viper { background-position: 0 -2706px;}
+.s_hero.si_Visage { background-position: 0 -2739px;}
+.s_hero.si_Void { background-position: 0 -2772px;}
+.s_hero.si_VS { background-position: 0 -2805px;}
+.s_hero.si_Warlock { background-position: 0 -2838px;}
+.s_hero.si_WD { background-position: 0 -2871px;}
+.s_hero.si_Weaver { background-position: 0 -2904px;}
+.s_hero.si_Wisp { background-position: 0 -2937px;}
+.s_hero.si_WR { background-position: 0 -2970px;}
+.s_hero.si_Zeus { background-position: 0 -3003px;}
+
+.s_herobig {
+	background-image: url(./Dota2_Alt_Tab/Images/Sprites/heroes_big.jpg);
+	background-repeat: no-repeat;
+	display: inline-block;
+	width: 127px;
+	height: 71px;
+}
+.s_herobig.si_AA { background-position: 0 0px;}
+.s_herobig.si_Alch { background-position: 0 -71px;}
+.s_herobig.si_AM { background-position: 0 -142px;}
+.s_herobig.si_Axe { background-position: 0 -213px;}
+.s_herobig.si_Bane { background-position: 0 -284px;}
+.s_herobig.si_Bat { background-position: 0 -355px;}
+.s_herobig.si_Beast { background-position: 0 -426px;}
+.s_herobig.si_BH { background-position: 0 -497px;}
+.s_herobig.si_Brew { background-position: 0 -568px;}
+.s_herobig.si_Brood { background-position: 0 -639px;}
+.s_herobig.si_BS { background-position: 0 -710px;}
+.s_herobig.si_Chen { background-position: 0 -781px;}
+.s_herobig.si_CK { background-position: 0 -852px;}
+.s_herobig.si_Clinkz { background-position: 0 -923px;}
+.s_herobig.si_Clock { background-position: 0 -994px;}
+.s_herobig.si_CM { background-position: 0 -1065px;}
+.s_herobig.si_Dazzle { background-position: 0 -1136px;}
+.s_herobig.si_Dirge { background-position: 0 -1207px;}
+.s_herobig.si_Disruptor { background-position: 0 -1278px;}
+.s_herobig.si_DK { background-position: 0 -1349px;}
+.s_herobig.si_Doom { background-position: 0 -1420px;}
+.s_herobig.si_Drow { background-position: 0 -1491px;}
+.s_herobig.si_DS { background-position: 0 -1562px;}
+.s_herobig.si_Ench { background-position: 0 -1633px;}
+.s_herobig.si_Enigma { background-position: 0 -1704px;}
+.s_herobig.si_ES { background-position: 0 -1775px;}
+.s_herobig.si_Gyro { background-position: 0 -1846px;}
+.s_herobig.si_Huskar { background-position: 0 -1917px;}
+.s_herobig.si_Invoker { background-position: 0 -1988px;}
+.s_herobig.si_Jakiro { background-position: 0 -2059px;}
+.s_herobig.si_Jugger { background-position: 0 -2130px;}
+.s_herobig.si_KOTL { background-position: 0 -2201px;}
+.s_herobig.si_Krob { background-position: 0 -2272px;}
+.s_herobig.si_Kunkka { background-position: 0 -2343px;}
+.s_herobig.si_LD { background-position: 0 -2414px;}
+.s_herobig.si_Leoric { background-position: 0 -2485px;}
+.s_herobig.si_Lesh { background-position: 0 -2556px;}
+.s_herobig.si_Lich { background-position: 0 -2627px;}
+.s_herobig.si_Lina { background-position: 0 -2698px;}
+.s_herobig.si_Lion { background-position: 0 -2769px;}
+.s_herobig.si_Luna { background-position: 0 -2840px;}
+.s_herobig.si_Lycan { background-position: 0 -2911px;}
+.s_herobig.si_Magnus { background-position: 0 -2982px;}
+.s_herobig.si_Meepo { background-position: 0 -3053px;}
+.s_herobig.si_Morph { background-position: 0 -3124px;}
+.s_herobig.si_Naga { background-position: 0 -3195px;}
+.s_herobig.si_Naix { background-position: 0 -3266px;}
+.s_herobig.si_NA { background-position: 0 -3337px;}
+.s_herobig.si_Necro { background-position: 0 -3408px;}
+.s_herobig.si_NS { background-position: 0 -3479px;}
+.s_herobig.si_OD { background-position: 0 -3550px;}
+.s_herobig.si_Ogre { background-position: 0 -3621px;}
+.s_herobig.si_Omni { background-position: 0 -3692px;}
+.s_herobig.si_PA { background-position: 0 -3763px;}
+.s_herobig.si_PL { background-position: 0 -3834px;}
+.s_herobig.si_POTM { background-position: 0 -3905px;}
+.s_herobig.si_Prophet { background-position: 0 -3976px;}
+.s_herobig.si_Puck { background-position: 0 -4047px;}
+.s_herobig.si_Pudge { background-position: 0 -4118px;}
+.s_herobig.si_Pugna { background-position: 0 -4189px;}
+.s_herobig.si_QoP { background-position: 0 -4260px;}
+.s_herobig.si_Razor { background-position: 0 -4331px;}
+.s_herobig.si_Rhasta { background-position: 0 -4402px;}
+.s_herobig.si_Riki { background-position: 0 -4473px;}
+.s_herobig.si_Rubick { background-position: 0 -4544px;}
+.s_herobig.si_SB { background-position: 0 -4615px;}
+.s_herobig.si_SD { background-position: 0 -4686px;}
+.s_herobig.si_SF { background-position: 0 -4757px;}
+.s_herobig.si_Silencer { background-position: 0 -4828px;}
+.s_herobig.si_SK { background-position: 0 -4899px;}
+.s_herobig.si_Slardar { background-position: 0 -4970px;}
+.s_herobig.si_Sniper { background-position: 0 -5041px;}
+.s_herobig.si_Spectre { background-position: 0 -5112px;}
+.s_herobig.si_Storm { background-position: 0 -5183px;}
+.s_herobig.si_Sven { background-position: 0 -5254px;}
+.s_herobig.si_TA { background-position: 0 -5325px;}
+.s_herobig.si_Tide { background-position: 0 -5396px;}
+.s_herobig.si_Tinker { background-position: 0 -5467px;}
+.s_herobig.si_Tiny { background-position: 0 -5538px;}
+.s_herobig.si_Treant { background-position: 0 -5609px;}
+.s_herobig.si_Ursa { background-position: 0 -5680px;}
+.s_herobig.si_Veno { background-position: 0 -5751px;}
+.s_herobig.si_Viper { background-position: 0 -5822px;}
+.s_herobig.si_Visage { background-position: 0 -5893px;}
+.s_herobig.si_Void { background-position: 0 -5964px;}
+.s_herobig.si_VS { background-position: 0 -6035px;}
+.s_herobig.si_Warlock { background-position: 0 -6106px;}
+.s_herobig.si_WD { background-position: 0 -6177px;}
+.s_herobig.si_Weaver { background-position: 0 -6248px;}
+.s_herobig.si_Wisp { background-position: 0 -6319px;}
+.s_herobig.si_WR { background-position: 0 -6390px;}
+.s_herobig.si_Zeus { background-position: 0 -6461px;}
+
+.s_item {
+	background-image: url(./Dota2_Alt_Tab/Images/Sprites/items.jpg);
+	background-repeat: no-repeat;
+	display: inline-block;
+	width: 51px;
+	height: 38px;
+}
+.s_item.si_abyssal_blade { background-position: 0 0px;}
+.s_item.si_ancient_janggo { background-position: 0 -38px;}
+.s_item.si_arcane_boots { background-position: 0 -76px;}
+.s_item.si_armlet { background-position: 0 -114px;}
+.s_item.si_assault { background-position: 0 -152px;}
+.s_item.si_basher { background-position: 0 -190px;}
+.s_item.si_belt_of_strength { background-position: 0 -228px;}
+.s_item.si_bfury { background-position: 0 -266px;}
+.s_item.si_black_king_bar { background-position: 0 -304px;}
+.s_item.si_blades_of_attack { background-position: 0 -342px;}
+.s_item.si_blade_mail { background-position: 0 -380px;}
+.s_item.si_blade_of_alacrity { background-position: 0 -418px;}
+.s_item.si_blink { background-position: 0 -456px;}
+.s_item.si_bloodstone { background-position: 0 -494px;}
+.s_item.si_boots_of_elves { background-position: 0 -532px;}
+.s_item.si_boots { background-position: 0 -570px;}
+.s_item.si_bottle { background-position: 0 -608px;}
+.s_item.si_bracer { background-position: 0 -646px;}
+.s_item.si_branches { background-position: 0 -684px;}
+.s_item.si_broadsword { background-position: 0 -722px;}
+.s_item.si_buckler { background-position: 0 -760px;}
+.s_item.si_butterfly { background-position: 0 -798px;}
+.s_item.si_chainmail { background-position: 0 -836px;}
+.s_item.si_circlet { background-position: 0 -874px;}
+.s_item.si_clarity { background-position: 0 -912px;}
+.s_item.si_claymore { background-position: 0 -950px;}
+.s_item.si_cloak { background-position: 0 -988px;}
+.s_item.si_courier { background-position: 0 -1026px;}
+.s_item.si_cyclone { background-position: 0 -1064px;}
+.s_item.si_dagon { background-position: 0 -1102px;}
+.s_item.si_demon_edge { background-position: 0 -1140px;}
+.s_item.si_desolator { background-position: 0 -1178px;}
+.s_item.si_diffusal_blade { background-position: 0 -1216px;}
+.s_item.si_dust { background-position: 0 -1254px;}
+.s_item.si_eagle { background-position: 0 -1292px;}
+.s_item.si_energy_booster { background-position: 0 -1330px;}
+.s_item.si_ethereal_blade { background-position: 0 -1368px;}
+.s_item.si_flask { background-position: 0 -1406px;}
+.s_item.si_flying_courier { background-position: 0 -1444px;}
+.s_item.si_force_staff { background-position: 0 -1482px;}
+.s_item.si_gauntlets { background-position: 0 -1520px;}
+.s_item.si_gem { background-position: 0 -1558px;}
+.s_item.si_ghost { background-position: 0 -1596px;}
+.s_item.si_gloves { background-position: 0 -1634px;}
+.s_item.si_greater_crit { background-position: 0 -1672px;}
+.s_item.si_hand_of_midas { background-position: 0 -1710px;}
+.s_item.si_headdress { background-position: 0 -1748px;}
+.s_item.si_heart { background-position: 0 -1786px;}
+.s_item.si_heavens_halberd { background-position: 0 -1824px;}
+.s_item.si_helm_of_iron_will { background-position: 0 -1862px;}
+.s_item.si_helm_of_the_dominator { background-position: 0 -1900px;}
+.s_item.si_hood_of_defiance { background-position: 0 -1938px;}
+.s_item.si_hyperstone { background-position: 0 -1976px;}
+.s_item.si_invis_sword { background-position: 0 -2014px;}
+.s_item.si_javelin { background-position: 0 -2052px;}
+.s_item.si_lesser_crit { background-position: 0 -2090px;}
+.s_item.si_lifesteal { background-position: 0 -2128px;}
+.s_item.si_maelstrom { background-position: 0 -2166px;}
+.s_item.si_magic_stick { background-position: 0 -2204px;}
+.s_item.si_magic_wand { background-position: 0 -2242px;}
+.s_item.si_manta { background-position: 0 -2280px;}
+.s_item.si_mantle { background-position: 0 -2318px;}
+.s_item.si_mask_of_madness { background-position: 0 -2356px;}
+.s_item.si_medallion_of_courage { background-position: 0 -2394px;}
+.s_item.si_mekansm { background-position: 0 -2432px;}
+.s_item.si_mithril_hammer { background-position: 0 -2470px;}
+.s_item.si_mjollnir { background-position: 0 -2508px;}
+.s_item.si_monkey_king_bar { background-position: 0 -2546px;}
+.s_item.si_mystic_staff { background-position: 0 -2584px;}
+.s_item.si_necronomicon { background-position: 0 -2622px;}
+.s_item.si_null_talisman { background-position: 0 -2660px;}
+.s_item.si_oblivion_staff { background-position: 0 -2698px;}
+.s_item.si_ogre_axe { background-position: 0 -2736px;}
+.s_item.si_orb_of_venom { background-position: 0 -2774px;}
+.s_item.si_orchid { background-position: 0 -2812px;}
+.s_item.si_pers { background-position: 0 -2850px;}
+.s_item.si_phase_boots { background-position: 0 -2888px;}
+.s_item.si_pipe { background-position: 0 -2926px;}
+.s_item.si_platemail { background-position: 0 -2964px;}
+.s_item.si_point_booster { background-position: 0 -3002px;}
+.s_item.si_poor_mans_shield { background-position: 0 -3040px;}
+.s_item.si_power_treads { background-position: 0 -3078px;}
+.s_item.si_quarterstaff { background-position: 0 -3116px;}
+.s_item.si_quelling_blade { background-position: 0 -3154px;}
+.s_item.si_radiance { background-position: 0 -3192px;}
+.s_item.si_rapier { background-position: 0 -3230px;}
+.s_item.si_reaver { background-position: 0 -3268px;}
+.s_item.si_refresher { background-position: 0 -3306px;}
+.s_item.si_relic { background-position: 0 -3344px;}
+.s_item.si_ring_of_aquila { background-position: 0 -3382px;}
+.s_item.si_ring_of_basilius { background-position: 0 -3420px;}
+.s_item.si_ring_of_health { background-position: 0 -3458px;}
+.s_item.si_ring_of_protection { background-position: 0 -3496px;}
+.s_item.si_ring_of_regen { background-position: 0 -3534px;}
+.s_item.si_robe { background-position: 0 -3572px;}
+.s_item.si_rod_of_atos { background-position: 0 -3610px;}
+.s_item.si_sange_and_yasha { background-position: 0 -3648px;}
+.s_item.si_sange { background-position: 0 -3686px;}
+.s_item.si_satanic { background-position: 0 -3724px;}
+.s_item.si_shadow_amulet { background-position: 0 -3762px;}
+.s_item.si_sheepstick { background-position: 0 -3800px;}
+.s_item.si_shivas_guard { background-position: 0 -3838px;}
+.s_item.si_skadi { background-position: 0 -3876px;}
+.s_item.si_slippers { background-position: 0 -3914px;}
+.s_item.si_smoke_of_deceit { background-position: 0 -3952px;}
+.s_item.si_sobi_mask { background-position: 0 -3990px;}
+.s_item.si_soul_booster { background-position: 0 -4028px;}
+.s_item.si_soul_ring { background-position: 0 -4066px;}
+.s_item.si_sphere { background-position: 0 -4104px;}
+.s_item.si_staff_of_wizardry { background-position: 0 -4142px;}
+.s_item.si_stout_shield { background-position: 0 -4180px;}
+.s_item.si_talisman_of_evasion { background-position: 0 -4218px;}
+.s_item.si_tango { background-position: 0 -4256px;}
+.s_item.si_tpscroll { background-position: 0 -4294px;}
+.s_item.si_tranquil_boots { background-position: 0 -4332px;}
+.s_item.si_travel_boots { background-position: 0 -4370px;}
+.s_item.si_ultimate_orb { background-position: 0 -4408px;}
+.s_item.si_ultimate_scepter { background-position: 0 -4446px;}
+.s_item.si_urn_of_shadows { background-position: 0 -4484px;}
+.s_item.si_vanguard { background-position: 0 -4522px;}
+.s_item.si_veil_of_discord { background-position: 0 -4560px;}
+.s_item.si_vitality_booster { background-position: 0 -4598px;}
+.s_item.si_vladmir { background-position: 0 -4636px;}
+.s_item.si_void_stone { background-position: 0 -4674px;}
+.s_item.si_ward_observer { background-position: 0 -4712px;}
+.s_item.si_ward_sentry { background-position: 0 -4750px;}
+.s_item.si_wraith_band { background-position: 0 -4788px;}
+.s_item.si_yasha { background-position: 0 -4826px;}
+

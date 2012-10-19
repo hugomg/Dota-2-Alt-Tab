@@ -1,0 +1,38 @@
+itembuilds/default_luna.txt
+{
+	"author"		"Generated for dota2alttab.com by Ninguem"
+	"hero"			"npc_dota_hero_luna"
+	"Title"			"Recommended items for Luna"
+	
+	"Items"
+	{
+		"Starting"
+		{
+			"item"		"item_ring_of_protection"
+			"item"		"item_branches"
+			"item"		"item_branches"
+			"item"		"item_branches"
+			"item"		"item_flask"
+			"item"		"item_tango"
+		}
+		
+		"Core"
+		{
+			"item"		"item_magic_wand"
+			"item"		"item_ring_of_aquila"
+			"item"		"item_power_treads"
+			"item"		"item_helm_of_the_dominator"
+			"item"		"item_yasha"
+		}
+		
+		"Extension"
+		{
+			"item"		"item_black_king_bar"
+			"item"		"item_manta"
+			"item"		"item_butterfly"
+			"item"		"item_satanic"
+			"item"		"item_assault"
+		}
+		
+	}
+}

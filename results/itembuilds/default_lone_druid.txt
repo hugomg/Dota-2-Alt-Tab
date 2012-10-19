@@ -1,0 +1,35 @@
+itembuilds/default_lone_druid.txt
+{
+	"author"		"Generated for dota2alttab.com by Ninguem"
+	"hero"			"npc_dota_hero_lone_druid"
+	"Title"			"Recommended items for Lone Druid"
+	
+	"Items"
+	{
+		"Starting"
+		{
+			"item"		"item_branches"
+			"item"		"item_branches"
+			"item"		"item_branches"
+			"item"		"item_flask"
+			"item"		"item_tango"
+			"item"		"item_stout_shield"
+		}
+		
+		"Core"
+		{
+			"item"		"item_tranquil_boots"
+			"item"		"item_boots"
+			"item"		"item_orb_of_venom"
+			"item"		"item_radiance"
+		}
+		
+		"Extension"
+		{
+			"item"		"item_assault"
+			"item"		"item_pipe"
+			"item"		"item_mjollnir"
+		}
+		
+	}
+}

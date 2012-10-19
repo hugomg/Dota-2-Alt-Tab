@@ -1,0 +1,37 @@
+itembuilds/default_alchemist.txt
+{
+	"author"		"Generated for dota2alttab.com by Ninguem"
+	"hero"			"npc_dota_hero_alchemist"
+	"Title"			"Recommended items for Alchemist"
+	
+	"Items"
+	{
+		"Starting"
+		{
+			"item"		"item_stout_shield"
+			"item"		"item_branches"
+			"item"		"item_branches"
+			"item"		"item_branches"
+			"item"		"item_flask"
+			"item"		"item_tango"
+		}
+		
+		"Core"
+		{
+			"item"		"item_vanguard"
+			"item"		"item_hood_of_defiance"
+			"item"		"item_radiance"
+			"item"		"item_power_treads"
+		}
+		
+		"Extension"
+		{
+			"item"		"item_assault"
+			"item"		"item_heart"
+			"item"		"item_manta"
+			"item"		"item_shivas_guard"
+			"item"		"item_mjollnir"
+		}
+		
+	}
+}

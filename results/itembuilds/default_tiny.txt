@@ -1,0 +1,45 @@
+itembuilds/default_tiny.txt
+{
+	"author"		"Generated for dota2alttab.com by Ninguem"
+	"hero"			"npc_dota_hero_tiny"
+	"Title"			"Recommended items for Tiny"
+	
+	"Items"
+	{
+		"Starting"
+		{
+			"item"		"item_branches"
+			"item"		"item_branches"
+			"item"		"item_branches"
+			"item"		"item_branches"
+			"item"		"item_flask"
+			"item"		"item_clarity"
+			"item"		"item_clarity"
+		}
+		
+		"Core"
+		{
+			"item"		"item_bottle"
+			"item"		"item_magic_wand"
+			"item"		"item_arcane_boots"
+			"item"		"item_blink"
+		}
+		
+		"Caster Extension"
+		{
+			"item"		"item_force_staff"
+			"item"		"item_cyclone"
+			"item"		"item_ethereal_blade"
+			"item"		"item_shivas_guard"
+			"item"		"item_sheepstick"
+		}
+		
+		"Siege/DPS Extension"
+		{
+			"item"		"item_ultimate_scepter"
+			"item"		"item_assault"
+			"item"		"item_greater_crit"
+		}
+		
+	}
+}
