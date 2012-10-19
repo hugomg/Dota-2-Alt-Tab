@@ -2424,7 +2424,7 @@ local weaver_luxury   = {I_LUXURY,
 
 Go{
   heroid='Weaver',
-  date={day=30, month=7, year=2012},
+  date={day=18, month=10, year=2012},
 
   SKILLBUILD{
     W, E, {MAX, W}, {MAX, Q}, {MAX, E}
@@ -2467,7 +2467,7 @@ end
 
 Go{
   heroid='PA',
-  date={day=30, month=7, year=2012},
+  date={day=18, month=10, year=2012},
 
   SKILLBUILD{
     Q, W, E, {MAX, Q}, {MAX, W}, {MAX, E}
@@ -2475,7 +2475,7 @@ Go{
 
   ITEMBUILD{
     {I_STARTING,
-      'stout_shield', {3, 'branches'}, 'flask', 'tango' },
+      {3, 'branches'}, 'stout_shield', 'flask', 'tango' },
     {I_CORE,
       'poor_mans_shield',
       If(DOTA_VERSION == 1, 'power_treads', 'phase_boots'),
@@ -2492,7 +2492,7 @@ Go{
   TIPS{
     {"When laning, use", Q, "to lasthit; It deals little damage to heroes so don't bother harassing with it."},
 
-    {"Do not buy evasion (", I'butterfly', ") or critical strike (", I'greater_crit', ").",
+    {"Do not buy evasion (Butterfly or Heaven's Halberd) or critical strike (", I'greater_crit', ").",
       "They don't stack with your skills."},
 
     tip_phase_boots_crit(),
