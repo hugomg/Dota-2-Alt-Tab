@@ -4267,7 +4267,7 @@ Go{
 
   ITEMBUILD{
     {I_STARTING,
-      {2, 'mantle'}, {2, 'branches'}, 'flask', 'tango' },
+      {ALT, 'courier', 'ward_observer'}, 'mantle', {2, 'branches'}, 'flask', 'tango' },
     {I_CORE,
       'magic_wand', 'bottle', 'arcane_boots' },
     {I_LUXURY,
@@ -4303,7 +4303,7 @@ Go{
 
 Go{
   heroid='Bat',
-  date={day=30, month=7, year=2012},
+  date={day=18, month=10, year=2012},
 
   SKILLBUILD{
     {MAX, Q}, {MAX, E}, {MAX, W}
@@ -4341,7 +4341,7 @@ Go{
 
 Go{
   heroid='Dazzle',
-  date={day=30, month=7, year=2012},
+  date={day=18, month=10, year=2012},
 
   SKILLBUILD{
     E, W, {3, Q}, {MAX, E}, {MAX, R}, {MAX, Q}, {MAX, W}
@@ -4349,7 +4349,7 @@ Go{
 
   ITEMBUILD{
     {I_STARTING,
-      'courier', {3, 'branches'}, {2, 'tango'}, {2, 'clarity'} },
+      {ALT, 'courier', 'ward_observer'}, {3, 'branches'}, {2, 'tango'}, {2, 'clarity'} },
     {I_CORE,
       'boots', {ALT, 'medallion_of_courage', 'urn_of_shadows'}, 'mekansm' },
     {I_LUXURY,
