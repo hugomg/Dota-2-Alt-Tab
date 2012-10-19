@@ -4548,23 +4548,15 @@ Go{
 
 Go{
   heroid='Lesh',
-  date={day=30, month=7, year=2012},
+  date={day=18, month=10, year=2012},
 
-  SKILLBUILD{ name="Stats Build",
+  SKILLBUILD{ name="Skills",
     Q, {MAX, W}, {MAX, Q}, {MAX, R}, {MAX, S}
-  },
-
-  SKILLBUILD{ name="Lightning Build",
-    {MAX, Q}, {MAX, E}, {MAX, W}, {MAX, R},
-  },
-
-  SKILLBUILD{ name="Edict Build",
-    Q, {MAX, W}, {MAX, Q}, {MAX, E}, {MAX, R},
   },
 
   ITEMBUILD{
     {I_STARTING,
-      {2, 'circlet'}, 'branches', 'flask', 'tango' },
+      {3, 'branches'}, 'circlet', 'flask', 'tango' },
     {I_CORE,
       'magic_wand', {OPT, 'bracer', 'bracer', 'null_talisman'},
       'arcane_boots', 'bloodstone' },
