@@ -1763,19 +1763,32 @@ Go{
 
 Go{
   heroid='PL',
-  date={day=30, month=7, year=2012},
+  date={day=18, month=10, year=2012},
 
-  SKILLBUILD{
+  SKILLBUILD{ name="Standard Skills",
     {MAX, Q}, {MAX, W}, {MAX, R}, {MAX, E}
   },
 
-  ITEMBUILD{
+  SKILLBUILD{ name="Alternate Skills",
+	{MAX, Q}, W, {4, S}, {MAX, R}, {MAX, E}, {MAX, W}
+  },
+
+  ITEMBUILD{ name="Standard Items",
     {I_STARTING,
-      'stout_shield', {3, 'branches'}, 'flask', 'tango' },
+      {3, 'branches'}, 'stout_shield', 'flask', 'tango' },
     {I_CORE,
-      'power_treads', 'vanguard', 'diffusal_blade'},
+      'tranquil_boots', 'soul_ring', 'vanguard', 'diffusal_blade'},
     {I_LUXURY,
       'heart', 'butterfly', 'manta', 'travel_boots' },
+  },
+
+  ITEMBUILD{ name="Alternate Items",
+    {I_STARTING,
+      {3, 'branches'}, 'stout_shield', 'flask', 'tango' },
+    {I_CORE,
+      'power_treads', 'radiance'},
+    {I_LUXURY,
+      'heart', 'butterfly', 'manta', 'greater_crit', 'travel_boots' },
   },
 
   HERODESC{
