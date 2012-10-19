@@ -665,17 +665,17 @@ Go{
 
 Go{
   heroid='Clock',
-  date={day=30, month=7, year=2012},
+  date={day=18, month=10, year=2012},
 
   SKILLBUILD{
     {2, E}, W, {2, Q}, {2, E}, {2,Q}, {MAX, W}
   },
 
   ITEMBUILD{
-    {I_STARTING,
-      'stout_shield', {3, 'branches'}, 'flask', 'tango' },
+	{I_STARTING,
+	  {3, 'branches'}, 'flask', 'tango', 'stout_shield' },
     {I_CORE,
-      'magic_wand', 'boots', 'bottle', 'vanguard' },
+      'magic_wand', 'phase_boots', 'bottle', 'vanguard' },
     {'Defensive Items',
       'blade_mail', 'hood_of_defiance'},
     {'Agressive Items',
