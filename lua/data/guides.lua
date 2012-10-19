@@ -2921,7 +2921,7 @@ Go{
 
 Go{
   heroid='Ench',
-  date={day=30, month=7, year=2012},
+  date={day=18, month=10, year=2012},
 
   SKILLBUILD{
     {MAX, W}, {MAX, E}, {MAX, Q}
@@ -2929,7 +2929,7 @@ Go{
 
   ITEMBUILD{
     {I_STARTING,
-      'courier', {3, 'branches'}, 'tango', 'clarity', 'smoke_of_deceit' },
+      {ALT, 'courier', 'ward_observer'}, {3, 'branches'}, 'tango', 'clarity', 'smoke_of_deceit' },
     {I_CORE,
       'ring_of_basilius', 'magic_wand', 'arcane_boots',
       'ultimate_scepter', 'ancient_janggo' },
@@ -2944,7 +2944,7 @@ Go{
   },
 
   TIPS{
-    {"Be agressive with your first 2 or 3 creeps;",
+    {"Be aggressive with your first 2 or 3 creeps;",
       "Few enemies can deal with them in the first minutes."},
 
     {Q, "are", W, "great against sustained damage but you will",
@@ -3492,7 +3492,7 @@ local tinker_rearm_tip = {
 
 Go{
   heroid='Tinker',
-  date={day=30, month=7, year=2012},
+  date={day=18, month=10, year=2012},
 
   SKILLBUILD{ name="Ganking Skills",
     {MAX, Q}, {MAX, W}, R, {MAX, E}, {MAX, R},
@@ -3560,7 +3560,7 @@ end
 
 Go{
   heroid='Rhasta',
-  date={day=30, month=7, year=2012},
+  date={day=18, month=10, year=2012},
 
   SKILLBUILD{
     E, {MAX, Q}, {MAX, W}, {MAX, E}
