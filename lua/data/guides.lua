@@ -744,7 +744,7 @@ Go{
 
 Go{
   heroid='Huskar',
-  date={day=30, month=7, year=2012},
+  date={day=18, month=10, year=2012},
 
   SKILLBUILD{
     W, {MAX, E}, {MAX, Q}, {MAX, S}
@@ -754,9 +754,9 @@ Go{
     {I_STARTING,
       {2, 'gauntlets'}, {2, 'branches'}, 'flask', 'tango'},
     {I_CORE,
-      'power_treads', 'helm_of_the_dominator'},
+      'power_treads', 'helm_of_the_dominator', 'armlet' },
     {'Damage',
-      'black_king_bar', 'greater_crit', 'armlet' },
+      'black_king_bar', 'greater_crit', 'ultimate_scepter'},
     {'Survivability',
       'magic_wand', 'hood_of_defiance', 'urn_of_shadows', 'heavens_halberd'},
   },
