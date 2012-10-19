@@ -1287,7 +1287,7 @@ Go{
 
 Go{
   heroid='Slardar',
-  date={day=30, month=7, year=2012},
+  date={day=18, month=10, year=2012},
 
   SKILLBUILD{
     {MAX, W}, {MAX, Q}, {MAX, E}
@@ -1295,7 +1295,7 @@ Go{
 
   ITEMBUILD{
     {I_STARTING,
-      'stout_shield', {3, 'branches'}, 'flask', 'tango' },
+	  {3, 'branches'}, 'stout_shield', 'flask', 'tango' },
     {I_CORE,
       'power_treads', 'magic_wand', 'vanguard',
       {OPT, 'urn_of_shadows'}, 'blink' },
@@ -1304,14 +1304,14 @@ Go{
   },
 
   HERODESC{
-    {THIS, "is a strength semi carry, with good chasing and early damage potential.",
+    {THIS, "is a strength semi-carry, with good chasing and early damage potential.",
       "He is also a good initiator, especially after he gets items, blink and BKB."},
   },
 
   TIPS{
-    {"Get survivability items.",Q,"and your melee range make you squishier the n you would think."},
+    {"Get survivability items.",Q,"and your melee range make you squishier than you would think."},
 
-    {R,"gives vision over its target, even if it tries to go invisible."},
+    {R,"gives vision over its target, even if it tries to go invisible. It also makes taking down Roshan much quicker because of the armor debuff."},
   }
 }
 
