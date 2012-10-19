@@ -3068,7 +3068,7 @@ Go{
 
 Go{
   heroid='Zeus',
-  date={day=30, month=7, year=2012},
+  date={day=18, month=10, year=2012},
 
   SKILLBUILD{ Q, E, {MAX, W}, {MAX, E}, {MAX, Q} },
 
@@ -3243,7 +3243,7 @@ Go{
 
 Go{
   heroid='Storm',
-  date={day=30, month=7, year=2012},
+  date={day=18, month=10, year=2012},
 
   SKILLBUILD{ name="Overload Build",
     Q, E, {3, W}, {MAX, E}, {MAX, W}, {MAX, Q},
@@ -3294,7 +3294,7 @@ Go{
 
 Go{
   heroid='WR',
-  date={day=30, month=7, year=2012},
+  date={day=18, month=10, year=2012},
 
   SKILLBUILD{ E, {MAX, W}, {MAX, Q}, {MAX, R}, {MAX, E} },
 
