@@ -950,13 +950,17 @@ Go{
   heroid='Doom',
   date={day=18, month=10, year=2012},
 
-  SKILLBUILD{
+  SKILLBUILD{ name="Standard Skills",
     {MAX, Q}, W, {MAX, E}, {MAX, W}
   },
 
-  ITEMBUILD{
+  SKILLBUILD{ name="Jungle Skills",
+    {MAX, Q}, {MAX, W}, {MAX, R}, {MAX, E}
+  },
+
+  ITEMBUILD{ name="Standard Items",
     {I_STARTING,
-      'stout_shield', {3, 'branches'}, 'flask', 'tango' },
+      {3, 'branches'}, 'stout_shield', 'flask', 'tango' },
     {I_CORE,
       'magic_wand', 'phase_boots', 'vanguard',
       {OPT, 'bottle', 'radiance'}},
@@ -964,9 +968,19 @@ Go{
       'pipe', 'assault', 'shivas_guard', 'heart', 'sheepstick'}
   },
 
+  ITEMBUILD{ name="Jungle Items",
+    {I_STARTING,
+      'ring_of_protection', 'quelling_blade', 'tango', 'clarity' },
+    {I_CORE,
+      'ring_of_basilius','hand_of_midas', 'phase_boots', 'vanguard',
+      {OPT,'radiance'}},
+    {I_LUXURY,
+      'pipe', 'assault', 'shivas_guard', 'heart', 'sheepstick'}
+  },
+
   HERODESC{
     {THIS, "is a mix of caster and carry.",
-      "He can use his",R,"to nuliffy an enemy for a whole teamfight and his ",
+      "He can use his",R,"to nullify an enemy for a whole teamfight and his ",
       E,"is the strongest single-target nuke in the game if you hit the level damage bonus.",
       "Finally, the bonus gold from ",Q,"allows him to farm items in order to shore up his weaknesses or to help him carry a bit."},
   },
@@ -981,6 +995,13 @@ Go{
     {"Sometimes it is best to leave unspent skill points in order to get the ",E,"multipliee."},
 
     {"Your have very low natural armour. Be careful when laning and get items to compensate."},
+  },
+
+  TIPS{ name="Jungling Tips",
+    {"After you devour your first creep, you need to use the courier to send yourself a Healing Salve."},
+    {"Use ", Q, " on large camps to make them easier to take down with less damage."},
+	{"Use ", W, " on small camps to take them out quickly and to heal up a bit."},
+	{"If you encounter an Ursa camp early game, ", Q, " the big creep, and then come back later and do the same to the smaller one.  It's not worth fighting in the beginning."},
   }
 }
 
